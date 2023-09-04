@@ -49,43 +49,169 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
+- intent: admissions_inquiry
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - How can I apply for admissions?
+    - What are the admission requirements?
+    - When is the application deadline?
+    - Is there an admissions fee?
+    - Can I check my application status?
+    - What programs do you offer?
+    - What are the eligibility criteria?
+    - Are there any scholarships available?
+    - How can I contact the admissions office?
 
-- intent: mood_unhappy
+- intent: admissions_inquiry_btech
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - How can I apply for the B.Tech program?
+    - What are the admission requirements for B.Tech?
+    - Are there any entrance exams for B.Tech admissions?
+    - What is the minimum cut-off score for B.Tech admissions?
+    - Does Woxsen University accept JEE Main scores for B.Tech admissions?
+    - Can I apply with my VITEEE score?
+    - Do you consider AP & TS-EAMCET scores for B.Tech admissions?
+    - Is MHT CET score valid for B.Tech admissions at Woxsen?
+    - What about the CUET exam? Is it accepted for B.Tech admissions?
+    - Are there any scholarships available for B.Tech students?
+    - How can I schedule a campus tour to learn more about the B.Tech program?
+    - Can I change my major after being admitted to the B.Tech program?
+    - When is the deadline to submit B.Tech applications for the upcoming semester?
 
-- intent: bot_challenge
+- intent: admissions_inquiry_bdesign
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - How can I apply for the B.Design program?
+    - What are the admission requirements for B.Design?
+    - Can I submit a portfolio for B.Design admissions?
+
+- intent: admissions_inquiry_barch
+  examples: |
+    - How can I apply for the B.Arch program?
+    - What are the admission requirements for B.Arch?
+    - Is there an architecture aptitude test for B.Arch admissions?
+
+- intent: admissions_inquiry_bba
+  examples: |
+    - How can I apply for the BBA program?
+    - What are the admission requirements for BBA?
+    - What is the application deadline for BBA admissions?
+    - Does Woxsen University consider CUET scores for BBA admissions?
+    - What is the minimum CUET score required for BBA admissions?
+    - Are there any specific subject requirements for BBA eligibility?
+    - Can I apply for BBA with a commerce background?
+    - What documents do I need to submit for BBA admissions?
+    - Is there an interview or group discussion as part of the BBA admission process?
+    - Can I apply for BBA if I'm an international student?
+    - What is the duration of the BBA program?
+
+
+- intent: admissions_inquiry_llb
+  examples: |
+    - How can I apply for the LLB program?
+    - What are the admission requirements for LLB?
+    - Is there a common law admission test for LLB admissions?
+
+- intent: admissions_inquiry_ba
+  examples: |
+    - How can I apply for the B.A program?
+    - What are the admission requirements for B.A?
+    - Can I choose my major for the B.A program?
+
+- intent: admissions_inquiry_mba
+  examples: |
+    - How can I apply for the MBA program?
+    - What are the eligibility criteria for MBA admissions?
+    - Are there any specific MBA entrance exams?
+
+- intent: admissions_inquiry_phd
+  examples: |
+    - How can I apply for the PhD program?
+    - What are the research areas for PhD in your University?
+    - What is the application process for PhD admissions?
+
+- intent: placements_btech
+  examples: |
+    - Tell me about placement opportunities for B.Tech graduates.
+    - How is the placement rate for B.Tech students?
+    - Can you provide statistics on recent placements for B.Tech students?
+    - What companies typically recruit B.Tech graduates?
+    - Are there any special placement programs for B.Tech students?
+    - How does the university support B.Tech students in their job placements?
+    - Do you have any information on internships for B.Tech students?
+
+- intent: placements_bba
+  examples: |
+    - Tell me about placement opportunities for BBA graduates.
+    - How is the placement rate for BBA students?
+    - Can you provide statistics on recent placements for BBA students?
+    - What companies typically recruit BBA graduates?
+    - Are there any special placement programs for BBA students?
+    - How does the university support BBA students in their job placements?
+
+- intent: placements_mba
+  examples: |
+    - What is the average salary package for MBA graduates?
+    - Can you share success stories of recent MBA alumni?
+    - How is the MBA placement scenario at your university?
+    - Tell me about the top recruiters for MBA students.
+
+- intent: placements_barch
+  examples: |
+    - How are the placement opportunities for B.Arch graduates?
+    - Can you provide placement statistics for B.Arch students?
+    - Which architectural firms typically hire B.Arch graduates?
+    - Are there any notable achievements of B.Arch alumni in the industry?
+
+- intent: placements_bdesign
+  examples: |
+    - What is the placement record for B.Design graduates?
+    - Can you share success stories of recent B.Design alumni?
+    - How does the university prepare B.Design students for placements?
+    - Tell me about the companies that hire B.Design graduates.
+
+- intent: application_process
+  examples: |
+    - What is the application process?
+    - How do I submit my application?
+    - Can I apply online?
+    - Is there an application form?
+    - What documents do I need to submit?
+    - How long does the application review take?
+    - Can I edit my submitted application?
+    - What is the admission timeline?
+
+- intent: financial_aid
+  examples: |
+    - How do I apply for financial aid?
+    - What types of financial aid are available?
+    - What is the deadline for financial aid applications?
+    - Can I get a scholarship for my program?
+    - How do I renew my scholarship?
+    - What are the eligibility criteria for financial aid?
+    - Where can I find information about tuition fees?
+
+- intent: academic_programs
+  examples: |
+    - Tell me about your undergraduate programs.
+    - What majors are available in your university?
+    - Can you provide information on postgraduate courses?
+    - What is the curriculum for the Computer Science program?
+    - Do you offer online courses?
+    - What is the duration of the MBA program?
+
+- intent: campus_facilities
+  examples: |
+    - What facilities are available on campus?
+    - Can you tell me about the library?
+    - Are there sports facilities for students?
+    - Is there a student cafeteria?
+    - How do I access the campus Wi-Fi?
+    - Tell me about the student housing options.
+
+- intent: admission_events
+  examples: |
+    - Are there any upcoming admission events?
+    - Can I attend an admissions webinar?
+    - Is there a campus tour scheduled?
+    - What events are happening during the admissions season?
+    - How can I register for an admissions event?
+    - Do you have an open house event?
