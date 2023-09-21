@@ -54,15 +54,6 @@ intents:
   - admission_events_mba
   - admission_events_phd
 
-
-
-
-
-
-
-
-  
-
 responses:
   utter_greet:
   - text: "Hey! How are you?"
