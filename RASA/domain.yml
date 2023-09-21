@@ -5,29 +5,52 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - admissions_inquiry_btech
+  - admissions_inquiry_bba
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_did_that_help:
   - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_admissions_inquiry_btech:
+    - text: "To apply for the B.Tech program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Check the admission requirements, including the minimum cut-off score and eligibility criteria, on our website.
+      3. If you have taken an eligible entrance exam such as JEE Main, VITEEE, AP & TS-EAMCET, or CUET, make sure to mention your scores in the application.
+      4. Complete the online application form with accurate and verifiable information.
+      5. Upload all the required documents, including academic transcripts, certificates, and identity proof.
+      6. Pay the application fee as specified on the website.
+      7. Once your application is submitted, our admissions team will review it.
+      8. If selected, you will receive an offer letter via email.
+      9. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      10. Congratulations! You are now officially part of Woxsen University's B.Tech program.
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+
+  utter_admissions_inquiry_bba:
+    - text: "To apply for the BBA program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and ensure you meet the eligibility criteria.
+      3. Complete the online application form with accurate information.
+      4. Upload all the required documents, including academic transcripts and certificates.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University!
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
 
 session_config:
   session_expiration_time: 60
