@@ -7,6 +7,61 @@ intents:
   - deny
   - admissions_inquiry_btech
   - admissions_inquiry_bba
+  - admissions_inquiry_bdesign
+  - admissions_inquiry_barch
+  - admissions_inquiry_llb
+  - admissions_inquiry_ba
+  - admissions_inquiry_mba
+  - admissions_inquiry_phd
+  - application_process_btech
+  - application_process_bba
+  - application_process_bdesign
+  - application_process_barch
+  - application_process_llb
+  - application_process_ba
+  - application_process_mba
+  - application_process_phd
+  - financial_aid_btech
+  - financial_aid_bba
+  - financial_aid_bdesign
+  - financial_aid_barch
+  - financial_aid_llb
+  - financial_aid_ba
+  - financial_aid_mba
+  - financial_aid_phd
+  - academic_programs_btech
+  - academic_programs_bba
+  - academic_programs_bdesign
+  - academic_programs_barch
+  - academic_programs_llb
+  - academic_programs_ba
+  - academic_programs_mba
+  - academic_programs_phd
+  - campus_facilities_btech
+  - campus_facilities_bba
+  - campus_facilities_bdesign
+  - campus_facilities_barch
+  - campus_facilities_llb
+  - campus_facilities_ba
+  - campus_facilities_mba
+  - campus_facilities_phd
+  - admission_events_btech
+  - admission_events_bba
+  - admission_events_bdesign
+  - admission_events_barch
+  - admission_events_llb
+  - admission_events_ba
+  - admission_events_mba
+  - admission_events_phd
+
+
+
+
+
+
+
+
+  
 
 responses:
   utter_greet:
@@ -50,6 +105,539 @@ responses:
       9. Welcome to Woxsen University!
 
       If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+  
+  utter_admissions_inquiry_bdesign:
+    - text: "To apply for the B.Design program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and ensure you meet the eligibility criteria.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts, certificates, and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Congratulations! You are now officially part of Woxsen University's B.Design program.
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+
+  utter_admissions_inquiry_barch:
+    - text: "To apply for the B.Arch program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and ensure you meet the eligibility criteria.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts, certificates, and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's B.Arch program!
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+  utter_admissions_inquiry_llb:
+    - text: "To apply for the LLB program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and ensure you meet the eligibility criteria.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts, certificates, and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's LLB program!
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+  utter_admissions_inquiry_ba:
+    - text: "To apply for the B.A program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and ensure you meet the eligibility criteria.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts, certificates, and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's B.A program!
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+  utter_admissions_inquiry_mba:
+    - text: "To apply for the MBA program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and ensure you meet the eligibility criteria.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts, certificates, and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's MBA program!
+
+      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+  utter_admissions_inquiry_phd:
+    - text: "To apply for the PhD program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the research areas and admission requirements for the PhD program.
+      3. Identify a potential research advisor and contact them to discuss your research interests.
+      4. Complete the online application form with accurate and verifiable information.
+      5. Upload all the required documents, including academic transcripts, certificates, and research proposal.
+      6. Pay the application fee as specified on the website.
+      7. Once your application is submitted, our admissions team will review it.
+      8. If selected, you will receive an offer letter via email.
+      9. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      
+       Welcome".
+    
+
+  utter_application_process_btech:
+    - text: "To apply for the B.Tech program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements, including eligibility criteria and entrance exams.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and entrance exam scores.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's B.Tech program!
+
+      If you have specific questions about the B.Tech application process, please contact our admissions office."
+
+  utter_application_process_bba:
+    - text: "To apply for the BBA program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and application deadlines.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's BBA program!
+
+      If you have specific questions about the BBA application process, please contact our admissions office."
+
+  utter_application_process_bdesign:
+    - text: "To apply for the B.Design program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and application deadlines.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and a portfolio of your design work.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's B.Design program!
+
+      If you have specific questions about the B.Design application process, please contact our admissions office."
+
+  utter_application_process_barch:
+    - text: "To apply for the B.Arch program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and application deadlines.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and a portfolio of your architectural work.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's B.Arch program!
+
+      If you have specific questions about the B.Arch application process, please contact our admissions office."
+
+  utter_application_process_llb:
+    - text: "To apply for the LLB program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and application deadlines.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's LLB program!
+
+      If you have specific questions about the LLB application process, please contact our admissions office."
+
+  utter_application_process_ba:
+    - text: "To apply for the B.A program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and application deadlines.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and identity proof.
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's B.A program!
+
+      If you have specific questions about the B.A application process, please contact our admissions office."
+
+  utter_application_process_mba:
+    - text: "To apply for the MBA program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the admission requirements and application deadlines.
+      3. Complete the online application form with accurate and verifiable information.
+      4. Upload all the required documents, including academic transcripts and entrance exam scores (if applicable).
+      5. Pay the application fee as specified on the website.
+      6. Once your application is submitted, our admissions team will review it.
+      7. If selected, you will receive an offer letter via email.
+      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      9. Welcome to Woxsen University's MBA program!
+
+      If you have specific questions about the MBA application process, please contact our admissions office."
+
+  utter_application_process_phd:
+    - text: "To apply for the PhD program at Woxsen University, please follow these steps:
+      1. Visit our admissions portal on our official website.
+      2. Review the research areas, admission requirements, and application deadlines for the PhD program.
+      3. Identify a potential research advisor and contact them to discuss your research interests.
+      4. Complete the online application form with accurate and verifiable information.
+      5. Upload all the required documents, including academic transcripts, research proposal, and references.
+      6. Pay the application fee as specified on the website.
+      7. Once your application is submitted, our admissions team will review it.
+      8. If selected, you will receive an offer letter via email.
+      9. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+      10. Welcome to Woxsen University's PhD program!
+
+      If you have specific questions about the PhD application process or research opportunities, please contact our admissions office."
+
+
+  utter_financial_aid_btech:
+    - text: "Financial aid options for B.Tech students at Woxsen University are available to support your education. Here's what you need to know:
+      1. Explore scholarships: Check our website for scholarships and grants that you may qualify for based on your academic performance or other criteria.
+      2. Government schemes: Find out about government-sponsored financial aid programs and their eligibility requirements.
+      3. Student loans: Consider student loan options and financial institutions that offer educational loans.
+      4. Work-study programs: Inquire about on-campus work-study opportunities to help cover your expenses.
+      5. Financial aid office: Contact our financial aid office for personalized guidance and assistance in securing financial support.
+
+      If you have specific questions about B.Tech financial aid or need help with your financial planning, please reach out to our financial aid office."
+
+  utter_financial_aid_bba:
+    - text: "At Woxsen University, we offer financial aid options to support BBA students in pursuing their education. Here's how you can explore financial assistance:
+      1. Scholarships: Review our scholarship offerings on our website to see if you qualify based on your academic achievements or other criteria.
+      2. Government support: Investigate government-sponsored financial aid programs and their eligibility requirements.
+      3. Student loans: Explore student loan options from various financial institutions.
+      4. Part-time employment: Check for on-campus part-time job opportunities to help cover your expenses.
+      5. Connect with us: For personalized financial aid guidance and assistance, please contact our financial aid office.
+
+      If you have specific questions about BBA financial aid or need assistance in securing funding, feel free to reach out to our financial aid office."
+
+  utter_financial_aid_bdesign:
+    - text: "Financial aid is available to support B.Design students at Woxsen University. Here are ways to explore financial assistance:
+      1. Scholarships: Visit our website to review scholarships for which you may be eligible based on your academic performance or other criteria.
+      2. Government schemes: Investigate government-sponsored financial aid programs and their eligibility requirements.
+      3. Educational loans: Consider student loan options provided by financial institutions.
+      4. Work opportunities: Look for on-campus work-study programs to help with your educational expenses.
+      5. Reach out to us: If you need personalized guidance or assistance in securing financial aid, please contact our financial aid office.
+
+      If you have specific questions about financial aid for B.Design or need help with your financial planning, don't hesitate to contact our financial aid office."
+
+  utter_financial_aid_barch:
+    - text: "We understand the importance of financial aid for B.Arch students at Woxsen University. Here's how you can explore financial assistance:
+      1. Scholarships: Check our website for available scholarships that you may qualify for based on your academic achievements or other criteria.
+      2. Government support: Investigate government-sponsored financial aid programs and their eligibility requirements.
+      3. Student loans: Explore student loan options from various financial institutions.
+      4. On-campus employment: Look into on-campus work-study opportunities to help cover your educational expenses.
+      5. Contact us: For personalized financial aid guidance and assistance, please reach out to our financial aid office.
+
+      If you have specific questions about financial aid for B.Arch or need assistance in securing funding, feel free to contact our financial aid office."
+
+  utter_financial_aid_llb:
+    - text: "Financial aid options are available to support LLB students at Woxsen University. Here's how you can explore financial assistance:
+      1. Scholarships: Visit our website to review scholarships that you may qualify for based on your academic performance or other criteria.
+      2. Government schemes: Investigate government-sponsored financial aid programs and their eligibility requirements.
+      3. Student loans: Consider student loan options from various financial institutions.
+      4. Part-time employment: Check for on-campus part-time job opportunities to help cover your educational expenses.
+      5. Reach out to us: For personalized financial aid guidance and assistance, please contact our financial aid office.
+
+      If you have specific questions about financial aid for LLB or need help with your financial planning, don't hesitate to contact our financial aid office."
+
+  utter_financial_aid_ba:
+    - text: "We offer financial aid options to support B.A students at Woxsen University. Here's how you can explore financial assistance:
+      1. Scholarships: Review our scholarship offerings on our website to see if you qualify based on your academic achievements or other criteria.
+      2. Government support: Investigate government-sponsored financial aid programs and their eligibility requirements.
+      3. Student loans: Explore student loan options from various financial institutions.
+      4. Part-time employment: Check for on-campus part-time job opportunities to help with your educational expenses.
+      5. Connect with us: For personalized financial aid guidance and assistance, please contact our financial aid office.
+
+      If you have specific questions about financial aid for B.A or need assistance in securing funding, feel free to reach out to our financial aid office."
+
+  utter_financial_aid_mba:
+    - text: "We understand the importance of financial aid for MBA students at Woxsen University. Here's how you can explore financial assistance:
+      1. Scholarships: Visit our website to review scholarships that you may qualify for based on your academic achievements or other criteria.
+      2. Government support: Investigate government-sponsored financial aid programs and their eligibility requirements.
+      3. Student loans: Consider student loan options provided by financial institutions.
+      4. On-campus work opportunities: Look for on-campus part-time job opportunities to help with your educational expenses.
+      5. Reach out to us: For personalized financial aid guidance and assistance, please contact our financial aid office.
+
+      If you have specific questions about financial aid for MBA or need help with your financial planning, don't hesitate to contact our financial aid office."
+
+  utter_financial_aid_phd:
+    - text: "We offer financial aid options to support PhD candidates at Woxsen University. Here's how you can explore financial assistance:
+      1. Scholarships: Review our scholarship offerings on our website to see if you qualify based on your academic achievements or other criteria.
+      2. Research grants: Investigate research grants and funding opportunities for your doctoral studies.
+      3. Teaching assistantships: Explore teaching assistant roles that may provide financial support.
+      4. Student loans: Consider student loan options provided by financial institutions.
+      5. Connect with us: For personalized financial aid guidance and assistance, please contact our financial aid office.
+
+      If you have specific questions about financial aid for PhD or need assistance in securing funding for your research, feel free to reach out to our financial aid office."
+
+
+  utter_academic_programs_btech:
+    - text: "The B.Tech program at Woxsen University offers a comprehensive curriculum with a focus on cutting-edge technology and innovation. Key highlights include:
+      1. Industry-relevant courses: Our program is designed in collaboration with industry experts to ensure you acquire practical skills.
+      2. Experienced faculty: Learn from experienced professors and professionals in the field.
+      3. Research opportunities: Engage in research projects and stay updated with the latest technological advancements.
+      4. Internships: Gain hands-on experience through internships with leading companies.
+      5. Modern infrastructure: Access state-of-the-art labs and facilities for your academic journey.
+      6. Career support: Our dedicated placement cell assists in securing rewarding career opportunities.
+
+      If you have specific questions about the B.Tech program or its curriculum, please feel free to reach out to our academic advisors."
+
+  utter_academic_programs_bba:
+    - text: "The BBA program at Woxsen University provides a strong foundation in business management. Key features of our program include:
+      1. Comprehensive curriculum: Gain knowledge in various business disciplines, including marketing, finance, and management.
+      2. Industry connections: Benefit from our strong industry partnerships and guest lectures by business leaders.
+      3. Experiential learning: Engage in case studies, projects, and internships to apply your knowledge.
+      4. Entrepreneurship focus: Develop entrepreneurial skills and explore business startup opportunities.
+      5. Career guidance: Our placement cell offers career counseling and assists in job placements.
+
+      If you have specific questions about the BBA program or its academic offerings, please contact our academic advisors."
+
+  utter_academic_programs_bdesign:
+    - text: "The B.Design program at Woxsen University is designed to nurture your creative talents and design skills. Highlights of our program include:
+      1. Diverse design disciplines: Explore various design fields such as graphic design, fashion design, and product design.
+      2. Studio-based learning: Engage in hands-on projects and design workshops.
+      3. Industry exposure: Collaborate with design firms and participate in design exhibitions.
+      4. Portfolio development: Create a strong design portfolio to showcase your work.
+      5. Career support: Our placement cell assists in connecting you with design-related career opportunities.
+
+      If you have specific questions about the B.Design program or its curriculum, please feel free to reach out to our academic advisors."
+
+  utter_academic_programs_barch:
+    - text: "The B.Arch program at Woxsen University focuses on architectural design and innovation. Key aspects of our program include:
+      1. Architectural design studios: Engage in design projects and develop your architectural creativity.
+      2. Practical training: Gain hands-on experience through internships and site visits.
+      3. Architectural history and theory: Explore the foundations of architectural knowledge.
+      4. Sustainable design: Learn about environmentally conscious design practices.
+      5. Career opportunities: Our program prepares you for a career in architecture or related fields.
+
+      If you have specific questions about the B.Arch program or its academic offerings, please contact our academic advisors."
+
+  utter_academic_programs_llb:
+    - text: "The LLB program at Woxsen University offers a comprehensive legal education. Key highlights of our program include:
+      1. Core legal subjects: Study foundational legal subjects such as contract law, constitutional law, and criminal law.
+      2. Practical training: Participate in moot court competitions and gain courtroom experience.
+      3. Legal research: Engage in legal research projects and publish research papers.
+      4. Industry connections: Benefit from interactions with legal professionals and law firms.
+      5. Career support: Our placement cell assists in legal internships and job placements.
+
+      If you have specific questions about the LLB program or its academic offerings, please feel free to reach out to our academic advisors."
+
+  utter_academic_programs_ba:
+    - text: "The B.A program at Woxsen University offers a diverse range of courses in the humanities and social sciences. Key features of our program include:
+      1. Interdisciplinary approach: Explore various subjects such as literature, sociology, and history.
+      2. Critical thinking: Develop analytical and critical thinking skills through discussions and research.
+      3. Elective courses: Customize your curriculum to align with your academic interests.
+      4. Career guidance: Our placement cell provides counseling and support for your career aspirations.
+
+      If you have specific questions about the B.A program or its academic offerings, please contact our academic advisors."
+
+  utter_academic_programs_mba:
+    - text: "The MBA program at Woxsen University is designed to prepare you for leadership roles in business. Key aspects of our program include:
+      1. Core business courses: Study essential topics in management, finance, marketing, and strategy.
+      2. Industry focus: Choose from specialized MBA tracks in areas like finance, marketing, and entrepreneurship.
+      3. Case studies: Analyze real-world business cases and make data-driven decisions.
+      4. Business projects: Work on live business projects and gain practical experience.
+      5. Career support: Our placement cell offers career counseling and assists in job placements.
+
+      If you have specific questions about the MBA program or its academic offerings, please feel free to reach out to our academic advisors."
+
+  utter_academic_programs_phd:
+    - text: "The PhD program at Woxsen University is a research-focused program designed to foster intellectual growth. Key features of our program include:
+      1. Research areas: Explore our diverse research areas and identify your research interests.
+      2. Research advisors: Collaborate with experienced faculty members who will guide your research.
+      3. Research publications: Publish your research findings in reputed journals and conferences.
+      4. Research facilities: Access state-of-the-art labs and resources for your research.
+      5. Academic support: Our academic advisors provide guidance throughout your doctoral journey.
+
+      If you have specific questions about the PhD program or its academic offerings, please contact our academic advisors."
+
+
+  utter_campus_facilities_btech:
+    - text: "The Woxsen University campus provides a range of facilities to enhance your B.Tech educational experience. These facilities include:
+      1. State-of-the-art labs: Access well-equipped laboratories for practical experiments and research.
+      2. Modern classrooms: Learn in technology-enabled classrooms with interactive teaching tools.
+      3. Library resources: Explore a vast collection of books, journals, and digital resources for your studies.
+      4. Campus Wi-Fi: Stay connected with high-speed internet access across the campus.
+      5. Recreational areas: Enjoy recreational spaces, including sports facilities and a student lounge.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for B.Tech students or need more details about any facility, please feel free to reach out."
+
+  utter_campus_facilities_bba:
+    - text: "At Woxsen University, our campus offers a variety of facilities to support your BBA journey. These facilities include:
+      1. Modern classrooms: Learn in well-equipped, technology-enabled classrooms.
+      2. Library resources: Access an extensive collection of business-related books and research materials.
+      3. Wi-Fi access: Stay connected with high-speed internet access across the campus.
+      4. Recreational areas: Enjoy sports facilities, a student lounge, and spaces for relaxation.
+      5. Dining options: Choose from a variety of dining options, including a cafeteria and food court.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for BBA students or need more information about any facility, please reach out."
+
+  utter_campus_facilities_bdesign:
+    - text: "Woxsen University's campus is designed to enhance your B.Design experience with the following facilities:
+      1. Design studios: Engage in creative work in well-equipped design studios.
+      2. Library resources: Access a comprehensive collection of design books and resources.
+      3. Wi-Fi connectivity: Stay connected with high-speed internet access across the campus.
+      4. Recreational areas: Enjoy creative spaces and recreational facilities for relaxation.
+      5. Cafeteria: Dine in a cafeteria offering a variety of food options.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for B.Design students or need more information about any facility, please feel free to reach out."
+
+  utter_campus_facilities_barch:
+    - text: "Our campus provides excellent facilities for B.Arch students to support your architectural education, including:
+      1. Architectural design studios: Work on design projects in well-equipped studios.
+      2. Library resources: Access architectural books and references for research.
+      3. High-speed Wi-Fi: Stay connected with internet access throughout the campus.
+      4. Recreational areas: Enjoy spaces for relaxation and creative thinking.
+      5. Cafeteria: Choose from a variety of dining options available on campus.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for B.Arch students or need more details about any facility, please contact us."
+
+  utter_campus_facilities_llb:
+    - text: "Our campus is well-equipped to support LLB students during their legal education. Facilities include:
+      1. Moot courtrooms: Participate in mock trials and hone your advocacy skills.
+      2. Legal library: Access a comprehensive collection of legal books and resources.
+      3. Campus-wide Wi-Fi: Stay connected with high-speed internet access.
+      4. Recreational areas: Relax and recharge in designated recreational spaces.
+      5. Cafeteria: Enjoy meals and refreshments in the on-campus cafeteria.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for LLB students or need more information about any facility, please reach out."
+
+  utter_campus_facilities_ba:
+    - text: "Woxsen University's campus offers a range of facilities to support B.A students in their academic journey, including:
+      1. Modern classrooms: Attend classes in well-equipped, technology-enabled classrooms.
+      2. Library resources: Access a vast collection of books and research materials.
+      3. Wi-Fi access: Stay connected with high-speed internet access across the campus.
+      4. Recreational areas: Relax in designated recreational spaces on campus.
+      5. Cafeteria: Choose from a variety of dining options available within the campus.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for B.A students or need more details about any facility, please feel free to reach out."
+
+  utter_campus_facilities_mba:
+    - text: "Our campus is equipped with facilities that enhance the MBA learning experience, including:
+      1. Modern classrooms: Learn in well-equipped classrooms with interactive technology.
+      2. Business library: Access a comprehensive collection of business-related books and research materials.
+      3. Campus-wide Wi-Fi: Stay connected with high-speed internet access.
+      4. Recreational areas: Relax and recharge in designated spaces.
+      5. Cafeteria: Enjoy meals and refreshments at the on-campus cafeteria.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for MBA students or need more information about any facility, please contact us."
+
+  utter_campus_facilities_phd:
+    - text: "Woxsen University provides facilities to support your PhD research journey, including:
+      1. Research labs: Access state-of-the-art research facilities and equipment.
+      2. Research library: Explore a wide range of academic resources for your research.
+      3. Campus-wide Wi-Fi: Stay connected with high-speed internet access.
+      4. Recreational areas: Find relaxation and creative spaces on campus.
+      5. Cafeteria: Enjoy meals and refreshments in the on-campus cafeteria.
+      6. 24/7 security: Ensure your safety with round-the-clock campus security.
+
+      If you have specific questions about the campus facilities for PhD students or need more details about any facility, please feel free to reach out."
+
+
+  utter_admission_events_btech:
+    - text: "Woxsen University conducts various admission events to help B.Tech aspirants. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the B.Tech program.
+      2. Webinars: Participate in informative webinars where you can get detailed insights into the admission process and program curriculum.
+      3. Application workshops: Join workshops to receive guidance on the application process and document submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Entrance exam dates: Stay updated on important dates for entrance exams and application deadlines.
+
+      To stay informed about upcoming B.Tech admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_bba:
+    - text: "For BBA aspirants, Woxsen University organizes various admission events to assist you in your application journey. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the BBA program.
+      2. Webinars: Participate in informative webinars where you can get detailed insights into the admission process and program curriculum.
+      3. Application workshops: Join workshops to receive guidance on the application process and document submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Application deadlines: Stay updated on important application deadlines and entrance exam dates.
+
+      To stay informed about upcoming BBA admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_bdesign:
+    - text: "To support B.Design applicants, Woxsen University conducts various admission events that provide valuable information. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the B.Design program.
+      2. Webinars: Participate in informative webinars where you can gain insights into the admission process and program curriculum.
+      3. Application workshops: Join workshops to receive guidance on the application process and document submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Application deadlines: Stay updated on important application deadlines and portfolio submission requirements.
+
+      To stay informed about upcoming B.Design admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_barch:
+    - text: "Woxsen University organizes admission events to assist B.Arch applicants in their admission journey. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the B.Arch program.
+      2. Webinars: Participate in informative webinars where you can gain insights into the admission process and program curriculum.
+      3. Application workshops: Join workshops to receive guidance on the application process and portfolio submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Portfolio submission details: Stay informed about portfolio submission requirements and application deadlines.
+
+      To stay updated about upcoming B.Arch admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_llb:
+    - text: "For LLB aspirants, Woxsen University hosts various admission events to support your application process. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the LLB program.
+      2. Webinars: Participate in informative webinars where you can get insights into the admission process and legal education.
+      3. Application workshops: Join workshops to receive guidance on the application process and document submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Application deadlines: Stay updated on important application deadlines and entrance exam dates.
+
+      To stay informed about upcoming LLB admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_ba:
+    - text: "Woxsen University organizes admission events to support B.A applicants throughout the application process. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the B.A program.
+      2. Webinars: Participate in informative webinars where you can get insights into the admission process and program details.
+      3. Application workshops: Join workshops to receive guidance on the application process and document submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Application deadlines: Stay updated on important application deadlines and admission criteria.
+
+      To stay updated about upcoming B.A admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_mba:
+    - text: "For MBA aspirants, Woxsen University hosts a variety of admission events to support your application journey. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the MBA program.
+      2. Webinars: Participate in informative webinars where you can get insights into the admission process and program details.
+      3. Application workshops: Join workshops to receive guidance on the application process and document submission.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Application deadlines: Stay updated on important application deadlines and entrance exam dates.
+
+      To stay informed about upcoming MBA admission events, please visit our official website or contact our admissions office for event schedules."
+
+  utter_admission_events_phd:
+    - text: "Woxsen University organizes admission events to support PhD applicants in their research journey. These events include:
+      1. Open houses: Attend open houses to explore the campus, interact with faculty, and learn about the PhD program.
+      2. Research webinars: Participate in informative webinars to understand the admission process and research areas.
+      3. Application workshops: Join workshops to receive guidance on the application process and research proposal.
+      4. Admission fairs: Attend admission fairs where you can meet university representatives and ask questions.
+      5. Research proposal details: Stay informed about research proposal submission requirements and deadlines.
+
+      To stay updated about upcoming PhD admission events, please visit our official website or contact our admissions office for event schedules."
+
 
 
 session_config:
