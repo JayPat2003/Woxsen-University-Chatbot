@@ -52,7 +52,7 @@ nlu:
 - intent: admissions_inquiry
   examples: |
     - How can I apply for admissions?
-    - What are the admission requirements?
+    - What are the admission requirements for [B.Tech](stream)?
     - When is the application deadline?
     - Is there an admissions fee?
     - Can I check my application status?
@@ -61,112 +61,40 @@ nlu:
     - Are there any scholarships available?
     - How can I contact the admissions office?
 
-- intent: admissions_inquiry_btech
+- intent: admissions_inquiry_program
   examples: |
-    - How can I apply for the B.Tech program?
-    - What are the admission requirements for B.Tech?
-    - Are there any entrance exams for B.Tech admissions?
-    - What is the minimum cut-off score for B.Tech admissions?
-    - Does Woxsen University accept JEE Main scores for B.Tech admissions?
-    - Can I apply with my VITEEE score?
-    - Do you consider AP & TS-EAMCET scores for B.Tech admissions?
-    - Is MHT CET score valid for B.Tech admissions at Woxsen?
-    - What about the CUET exam? Is it accepted for B.Tech admissions?
-    - Are there any scholarships available for B.Tech students?
-    - How can I schedule a campus tour to learn more about the B.Tech program?
-    - Can I change my major after being admitted to the B.Tech program?
-    - When is the deadline to submit B.Tech applications for the upcoming semester?
-
-- intent: admissions_inquiry_bdesign
-  examples: |
-    - How can I apply for the B.Design program?
-    - What are the admission requirements for B.Design?
-    - Can I submit a portfolio for B.Design admissions?
-
-- intent: admissions_inquiry_barch
-  examples: |
-    - How can I apply for the B.Arch program?
-    - What are the admission requirements for B.Arch?
-    - Is there an architecture aptitude test for B.Arch admissions?
-
-- intent: admissions_inquiry_bba
-  examples: |
-    - How can I apply for the BBA program?
-    - What are the admission requirements for BBA?
-    - What is the application deadline for BBA admissions?
-    - Does Woxsen University consider CUET scores for BBA admissions?
-    - What is the minimum CUET score required for BBA admissions?
-    - Are there any specific subject requirements for BBA eligibility?
-    - Can I apply for BBA with a commerce background?
-    - What documents do I need to submit for BBA admissions?
-    - Is there an interview or group discussion as part of the BBA admission process?
-    - Can I apply for BBA if I'm an international student?
-    - What is the duration of the BBA program?
-
-
-- intent: admissions_inquiry_llb
-  examples: |
-    - How can I apply for the LLB program?
-    - What are the admission requirements for LLB?
-    - Is there a common law admission test for LLB admissions?
-
-- intent: admissions_inquiry_ba
-  examples: |
-    - How can I apply for the B.A program?
-    - What are the admission requirements for B.A?
-    - Can I choose my major for the B.A program?
-
-- intent: admissions_inquiry_mba
-  examples: |
-    - How can I apply for the MBA program?
-    - What are the eligibility criteria for MBA admissions?
+    - How can I apply for the [B.Tech](stream) program?
+    - What are the admission requirements for [B.Design](stream)?
+    - Can I submit a portfolio for [B.Design](stream) admissions?
+    - What is the application deadline for [BBA](stream) admissions?
+    - Does Woxsen University consider CUET scores for [BBA](stream) admissions?
+    - What is the minimum CUET score required for [BBA](stream) admissions?
+    - Are there any specific subject requirements for [BBA](stream) eligibility?
+    - Can I apply for [BBA](stream) with a commerce background?
+    - What documents do I need to submit for [BBA](stream) admissions?
+    - Is there an interview or group discussion as part of the [BBA](stream) admission process?
+    - Can I apply for [BBA](stream) if I'm an international student?
+    - What is the duration of the [BBA](stream) program?
+    - How can I apply for the [LLB](stream) program?
+    - What are the admission requirements for [LLB](stream)?
+    - Is there a common law admission test for [LLB](stream) admissions?
+    - How can I apply for the [B.A](stream) program?
+    - What are the admission requirements for [B.A](stream)?
+    - Can I choose my major for the [B.A](stream) program?
+    - How can I apply for the [MBA](stream) program?
+    - What are the eligibility criteria for [MBA](stream) admissions?
     - Are there any specific MBA entrance exams?
+    - How can I apply for the [PhD](stream) program?
+    - What are the research areas for [PhD](stream) in your University?
+    - What is the application process for [PhD](stream) admissions?
 
-- intent: admissions_inquiry_phd
+- intent: placements_inquiry
   examples: |
-    - How can I apply for the PhD program?
-    - What are the research areas for PhD in your University?
-    - What is the application process for PhD admissions?
-
-- intent: placements_btech
-  examples: |
-    - Tell me about placement opportunities for B.Tech graduates.
-    - How is the placement rate for B.Tech students?
-    - Can you provide statistics on recent placements for B.Tech students?
-    - What companies typically recruit B.Tech graduates?
-    - Are there any special placement programs for B.Tech students?
-    - How does the university support B.Tech students in their job placements?
-    - Do you have any information on internships for B.Tech students?
-
-- intent: placements_bba
-  examples: |
-    - Tell me about placement opportunities for BBA graduates.
-    - How is the placement rate for BBA students?
-    - Can you provide statistics on recent placements for BBA students?
-    - What companies typically recruit BBA graduates?
-    - Are there any special placement programs for BBA students?
-    - How does the university support BBA students in their job placements?
-
-- intent: placements_mba
-  examples: |
-    - What is the average salary package for MBA graduates?
-    - Can you share success stories of recent MBA alumni?
-    - How is the MBA placement scenario at your university?
-    - Tell me about the top recruiters for MBA students.
-
-- intent: placements_barch
-  examples: |
-    - How are the placement opportunities for B.Arch graduates?
-    - Can you provide placement statistics for B.Arch students?
-    - Which architectural firms typically hire B.Arch graduates?
-    - Are there any notable achievements of B.Arch alumni in the industry?
-
-- intent: placements_bdesign
-  examples: |
-    - What is the placement record for B.Design graduates?
-    - Can you share success stories of recent B.Design alumni?
-    - How does the university prepare B.Design students for placements?
-    - Tell me about the companies that hire B.Design graduates.
+    - Tell me about placement opportunities for [B.Tech](stream) graduates.
+    - How is the placement rate for [BBA](stream) students?
+    - What is the average salary package for [MBA](stream) graduates?
+    - How are the placement opportunities for [B.Arch](stream) graduates?
+    - What is the placement record for [B.Design](stream) graduates?
 
 - intent: application_process
   examples: |
@@ -196,7 +124,7 @@ nlu:
     - Can you provide information on postgraduate courses?
     - What is the curriculum for the Computer Science program?
     - Do you offer online courses?
-    - What is the duration of the MBA program?
+    - What is the duration of the [MBA](stream) program?
 
 - intent: campus_facilities
   examples: |
