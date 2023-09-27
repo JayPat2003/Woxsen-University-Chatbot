@@ -1,30 +1,175 @@
-version: "3.1"
-
-stories:
-
-- story: happy path
+- story: Greet and Inquire About Admissions
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
 
-- story: sad path 1
+- story: Inquire About Admissions and Ask About Programs
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: academic_programs
+    - action: utter_academic_programs
 
-- story: sad path 2
+- story: Ask About Application Process and Admissions Inquiry
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+    - intent: application_process
+    - action: utter_application_process
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+
+- story: Inquire About Financial Aid and Eligibility
+  steps:
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: eligibility_criteria
+    - action: utter_financial_aid
+
+- story: Ask About Campus Facilities
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Inquire About Placements
+  steps:
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+
+- story: Greet, Inquire About Programs, and Goodbye
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Admissions Inquiry with Entity Mention (B.Tech)
+  steps:
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: admissions_inquiry_program
+    - action: utter_admissions_inquiry_program
+
+- story: Ask About Financial Aid and Apply for It
+  steps:
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: application_process
+    - action: utter_application_process
+
+- story: Inquire About Placements and Academic Programs
+  steps:
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+    - intent: academic_programs
+    - action: utter_academic_programs
+
+- story: Start with Greeting, Then Inquire About Admissions, and Ask About Campus Facilities
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Ask About Admission Events and Inquire About Admissions
+  steps:
+    - intent: admission_events
+    - action: utter_admission_events
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+
+- story: Greet, Deny, and Goodbye
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: deny
+    - action: utter_deny
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Inquire About Financial Aid and Academic Programs
+  steps:
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: academic_programs
+    - action: utter_academic_programs
+
+- story: Inquire About Placements, Ask About Admission Events, and Affirm
+  steps:
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+    - intent: admission_events
+    - action: utter_admission_events
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Greet and Ask About Application Process
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: application_process
+    - action: utter_application_process
+
+- story: Greet and Inquire About Financial Aid
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: financial_aid
+    - action: utter_financial_aid
+
+- story: Ask About Academic Programs and Campus Facilities
+  steps:
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Inquire About Admission Process and Deny
+  steps:
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: deny
+    - action: utter_deny
+
+- story: Ask About Placements and Admission Events
+  steps:
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+    - intent: admission_events
+    - action: utter_admission_events
+
+- story: Greet and Ask About Admission Process, Then Goodbye
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Inquire About Campus Facilities and Academic Programs
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: academic_programs
+    - action: utter_academic_programs
+
+- story: Ask About Admission Process, Then Inquire About Academic Programs
+  steps:
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: academic_programs
+    - action: utter_academic_programs
+
+- story: Greet, Ask About Financial Aid, and Confirm
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: affirm
+    - action: utter_affirm
