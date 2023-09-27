@@ -173,3 +173,263 @@
     - action: utter_financial_aid
     - intent: affirm
     - action: utter_affirm
+
+- story: Greet and Ask About Admission Requirements
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+
+- story: Inquire About Application Process, Deny, and Ask About Campus Facilities
+  steps:
+    - intent: application_process
+    - action: utter_application_process
+    - intent: deny
+    - action: utter_deny
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Ask About Financial Aid and Scholarships, Then Ask About Placements
+  steps:
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+
+- story: Greet and Inquire About Online Courses
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: academic_programs
+    - action: utter_academic_programs
+
+- story: Ask About Academic Programs, Confirm, and Inquire About Admission Events
+  steps:
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: affirm
+    - action: utter_affirm
+    - intent: admission_events
+    - action: utter_admission_events
+
+- story: Greet, Inquire About Eligibility Criteria, and Goodbye
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry_program
+    - intent: eligibility_criteria
+    - action: utter_admissions_inquiry_program
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Ask About Library and Admission Timeline
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: application_process
+    - action: utter_application_process
+    - intent: academic_programs
+    - action: utter_academic_programs
+
+- story: Greet, Ask About Placements, and Goodbye
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Inquire About Academic Programs and Tuition Fees
+  steps:
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: financial_aid
+    - action: utter_financial_aid
+
+- story: Greet, Inquire About Programs, and Deny
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: deny
+    - action: utter_deny
+
+- story: Ask About Application Deadline and Confirm Admission Inquiry
+  steps:
+    - intent: application_process
+    - action: utter_application_process
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+
+- story: Inquire About Admission Timeline and Deny Admission Inquiry
+  steps:
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry_program
+    - intent: deny
+    - action: utter_deny
+
+- story: Ask About Campus Wi-Fi and Placements
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+
+- story: Inquire About Admissions, Ask About Eligibility Criteria, and Confirm
+  steps:
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: eligibility_criteria
+    - action: utter_admissions_inquiry_program
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Ask About Online Courses, Confirm Academic Programs, and Deny
+  steps:
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: affirm
+    - action: utter_affirm
+    - intent: deny
+    - action: utter_deny
+
+- story: Inquire About Application Timeline, Confirm Application Process, and Ask About Sports Facilities
+  steps:
+    - intent: application_process
+    - action: utter_application_process
+    - intent: affirm
+    - action: utter_affirm
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Ask About Financial Aid Types and Financial Aid Deadlines
+  steps:
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: financial_aid
+    - action: utter_financial_aid
+
+- story: Greet, Ask About Admission Contact, and Deny
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry_program
+    - intent: deny
+    - action: utter_deny
+
+- story: Inquire About Campus Facilities and Ask About Library
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Ask About Placements, Confirm Placements, and Inquire About Financial Aid
+  steps:
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+    - intent: affirm
+    - action: utter_affirm
+    - intent: financial_aid
+    - action: utter_financial_aid
+
+- story: Greet and Inquire About Student Cafeteria
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+- story: Ask About Available Majors and Confirm Academic Programs
+  steps:
+    - intent: academic_programs
+    - action: utter_academic_programs
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Inquire About Admission Process and Ask About Campus Facilities
+  steps:
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry_program
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Ask About Sports Facilities and Confirm Campus Facilities
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Inquire About Financial Aid Types and Scholarships
+  steps:
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: financial_aid
+    - action: utter_financial_aid
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Ask About Placements and Inquire About Admission Events
+  steps:
+    - intent: placements_inquiry
+    - action: utter_placements_inquiry
+    - intent: admission_events
+    - action: utter_admission_events
+
+- story: Greet and Ask About Student Housing Options
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+
+- story: Inquire About Application Documents and Confirm Application Process
+  steps:
+    - intent: application_process
+    - action: utter_application_process
+    - intent: application_process
+    - action: utter_application_process
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Ask About Admission Events and Deny Admissions Inquiry
+  steps:
+    - intent: admission_events
+    - action: utter_admission_events
+    - intent: deny
+    - action: utter_deny
+
+- story: Greet and Ask About Admission Timeline
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admissions_inquiry
+    - action: utter_admissions_inquiry
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Inquire About Campus Wi-Fi and Admission Process
+  steps:
+    - intent: campus_facilities
+    - action: utter_campus_facilities
+    - intent: application_process
+    - action: utter_application_process
+    - intent: campus_facilities
+    - action: utter_campus_facilities
