@@ -100,14 +100,6 @@ nlu:
     - How do I access the [campus Wi-Fi](campus_facilities)?
     - Tell me about the [student housing options](campus_facilities).
 
-- intent: admission_events
-  examples: |
-    - Are there any upcoming [admission events](event_name)?
-    - Can I attend an [admissions webinar](event_name)?
-    - Is there a [campus tour](admission_events) scheduled for [next week](date)?
-    - What events are happening during the [admissions season](semester_term)?
-    - How can I register for an [admissions event](event_name)?
-    - Do you have an [open house event](event_name)?
 
 - intent: sports_inquiry
   examples: |
