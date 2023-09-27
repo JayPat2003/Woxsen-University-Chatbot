@@ -5,54 +5,16 @@ intents:
   - goodbye
   - affirm
   - deny
-  - admissions_inquiry_btech
-  - admissions_inquiry_bba
-  - admissions_inquiry_bdesign
-  - admissions_inquiry_barch
-  - admissions_inquiry_llb
-  - admissions_inquiry_ba
-  - admissions_inquiry_mba
-  - admissions_inquiry_phd
-  - application_process_btech
-  - application_process_bba
-  - application_process_bdesign
-  - application_process_barch
-  - application_process_llb
-  - application_process_ba
-  - application_process_mba
-  - application_process_phd
-  - financial_aid_btech
-  - financial_aid_bba
-  - financial_aid_bdesign
-  - financial_aid_barch
-  - financial_aid_llb
-  - financial_aid_ba
-  - financial_aid_mba
-  - financial_aid_phd
-  - academic_programs_btech
-  - academic_programs_bba
-  - academic_programs_bdesign
-  - academic_programs_barch
-  - academic_programs_llb
-  - academic_programs_ba
-  - academic_programs_mba
-  - academic_programs_phd
-  - campus_facilities_btech
-  - campus_facilities_bba
-  - campus_facilities_bdesign
-  - campus_facilities_barch
-  - campus_facilities_llb
-  - campus_facilities_ba
-  - campus_facilities_mba
-  - campus_facilities_phd
-  - admission_events_btech
-  - admission_events_bba
-  - admission_events_bdesign
-  - admission_events_barch
-  - admission_events_llb
-  - admission_events_ba
-  - admission_events_mba
-  - admission_events_phd
+  -admissions_inquiry
+  -admissions_inquiry_program
+  -placements_inquiry
+  -application_process
+  -financial_aid
+  -academic_programs
+  -campus_facilities
+  -admission_events
+  -sports_inquiry
+
 
 responses:
   utter_greet:

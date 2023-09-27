@@ -51,108 +51,70 @@ nlu:
 
 - intent: admissions_inquiry
   examples: |
-    - How can I apply for admissions?
-    - What are the admission requirements for [B.Tech](stream)?
-    - When is the application deadline?
-    - Is there an admissions fee?
-    - Can I check my application status?
-    - What programs do you offer?
-    - What are the eligibility criteria?
-    - Are there any scholarships available?
-    - How can I contact the admissions office?
-
-- intent: admissions_inquiry_program
-  examples: |
-    - How can I apply for the [B.Tech](stream) program?
-    - What are the admission requirements for [B.Design](stream)?
-    - Can I submit a portfolio for [B.Design](stream) admissions?
-    - What is the application deadline for [BBA](stream) admissions?
-    - Does Woxsen University consider CUET scores for [BBA](stream) admissions?
-    - What is the minimum CUET score required for [BBA](stream) admissions?
-    - Are there any specific subject requirements for [BBA](stream) eligibility?
-    - Can I apply for [BBA](stream) with a commerce background?
-    - What documents do I need to submit for [BBA](stream) admissions?
-    - Is there an interview or group discussion as part of the [BBA](stream) admission process?
-    - Can I apply for [BBA](stream) if I'm an international student?
-    - What is the duration of the [BBA](stream) program?
-    - How can I apply for the [LLB](stream) program?
-    - What are the admission requirements for [LLB](stream)?
-    - Is there a common law admission test for [LLB](stream) admissions?
-    - How can I apply for the [B.A](stream) program?
-    - What are the admission requirements for [B.A](stream)?
-    - Can I choose my major for the [B.A](stream) program?
-    - How can I apply for the [MBA](stream) program?
-    - What are the eligibility criteria for [MBA](stream) admissions?
-    - Are there any specific MBA entrance exams?
-    - How can I apply for the [PhD](stream) program?
-    - What are the research areas for [PhD](stream) in your University?
-    - What is the application process for [PhD](stream) admissions?
-
-- intent: placements_inquiry
-  examples: |
-    - Tell me about placement opportunities for [B.Tech](stream) graduates.
-    - How is the placement rate for [BBA](stream) students?
-    - What is the average salary package for [MBA](stream) graduates?
-    - How are the placement opportunities for [B.Arch](stream) graduates?
-    - What is the placement record for [B.Design](stream) graduates?
+    - How can I apply for admissions at [Woxsen University](location)?
+    - What are the admission requirements for [B.Tech](stream) program?
+    - When is the application deadline for [MBA](stream) admissions?
+    - Is there an admissions fee for international students?
+    - Can I check my application status with my [Reference Number](reference_number)?
+    - What programs do you offer in [Computer Science](course_name)?
+    - What are the eligibility criteria for [Psychology](course_name) program?
+    - Are there any scholarships available for [Electrical Engineering](course_name) students?
+    - How can I contact the admissions office at [Main Campus](location)?
 
 - intent: application_process
   examples: |
-    - What is the application process?
-    - How do I submit my application?
-    - Can I apply online?
-    - Is there an application form?
-    - What documents do I need to submit?
-    - How long does the application review take?
-    - Can I edit my submitted application?
-    - What is the admission timeline?
+    - What is the [application process](document_type) for [Computer Science](course_name) program?
+    - How do I submit my [Transcript](document_type) for admissions?
+    - Can I apply online with my [Passport](document_type)?
+    - Is there an [application form](document_type) to fill out?
+    - What documents do I need to submit for [Psychology](course_name) admissions?
+    - How long does the [application review](confirmation_status) take?
+    - Can I edit my submitted [application](document_type)?
+    - What is the admission timeline for [Fall 2023](date)?
 
 - intent: financial_aid
   examples: |
-    - How do I apply for financial aid?
-    - What types of financial aid are available?
-    - What is the deadline for financial aid applications?
-    - Can I get a scholarship for my program?
-    - How do I renew my scholarship?
-    - What are the eligibility criteria for financial aid?
-    - Where can I find information about tuition fees?
+    - How do I apply for [financial aid](financial_aid)?
+    - What types of [financial aid](financial_aid) are available for [B.Tech](stream) students?
+    - What is the [deadline](date) for [financial aid](financial_aid) applications?
+    - Can I get a [scholarship](financial_aid) for my [MBA](stream) program?
+    - How do I renew my [scholarship](financial_aid)?
+    - What are the [eligibility criteria](eligibility_criteria) for [financial aid](financial_aid)?
+    - Where can I find information about [tuition fees](amount_currency)?
 
 - intent: academic_programs
   examples: |
-    - Tell me about your undergraduate programs.
-    - What majors are available in your university?
-    - Can you provide information on postgraduate courses?
-    - What is the curriculum for the Computer Science program?
-    - Do you offer online courses?
+    - Tell me about your [undergraduate programs](academic_programs).
+    - What majors are available in your [university](location)?
+    - Can you provide information on [postgraduate courses](academic_programs)?
+    - What is the curriculum for the [Computer Science](course_name) program?
+    - Do you offer [online courses](academic_programs)?
     - What is the duration of the [MBA](stream) program?
 
 - intent: campus_facilities
   examples: |
-    - What facilities are available on campus?
-    - Can you tell me about the library?
-    - Are there sports facilities for students?
-    - Is there a student cafeteria?
-    - How do I access the campus Wi-Fi?
-    - Tell me about the student housing options.
+    - What [facilities](campus_facilities) are available on [campus](location)?
+    - Can you tell me about the [library](campus_facilities)?
+    - Are there [sports facilities](campus_facilities) for [students](user_role)?
+    - Is there a [student cafeteria](campus_facilities)?
+    - How do I access the [campus Wi-Fi](campus_facilities)?
+    - Tell me about the [student housing options](campus_facilities).
 
 - intent: admission_events
   examples: |
-    - Are there any upcoming admission events?
-    - Can I attend an admissions webinar?
-    - Is there a campus tour scheduled?
-    - What events are happening during the admissions season?
-    - How can I register for an admissions event?
-    - Do you have an open house event?
+    - Are there any upcoming [admission events](event_name)?
+    - Can I attend an [admissions webinar](event_name)?
+    - Is there a [campus tour](admission_events) scheduled for [next week](date)?
+    - What events are happening during the [admissions season](semester_term)?
+    - How can I register for an [admissions event](event_name)?
+    - Do you have an [open house event](event_name)?
 
 - intent: sports_inquiry
   examples: |
-    - Tell me about the sports facilities on campus.
-    - What sports and recreational activities are available?
-    - Is there a gym for students to use?
-    - Are there any sports clubs or teams I can join?
-    - Can you provide information about the university's sports events?
-    - How do I access the sports facilities as a student?
-    - Are there any fitness classes or programs offered?
-    - What are the hours of operation for the sports center?
-    - Do you have indoor and outdoor sports options?
-
+    - What [sports facilities](campus_facilities) do you have on [campus](location)?
+    - Are there any [sports clubs](user_role) I can join?
+    - Tell me about the [gym](campus_facilities) and [fitness classes](academic_programs).
+    - Can I participate in [sports tournaments](sports_inquiry)?
+    - Do you have [intramural sports](sports_inquiry)?
+    - What are the operating hours for [sports facilities](campus_facilities)?
+    - Are there any upcoming [sports events](event_name)?
