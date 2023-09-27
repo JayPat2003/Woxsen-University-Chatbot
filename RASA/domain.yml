@@ -12,8 +12,6 @@ intents:
   - financial_aid
   - academic_programs
   - campus_facilities
-  - admission_events
-  - sports_inquiry
 
 entities:
   - stream
@@ -140,18 +138,4 @@ utter_campus_facilities:
       
       For more specific information about each facility, including location and operating hours, please visit our official website's 'Campus Life' section. If you have any further questions or need assistance, feel free to ask, and we'll be happy to help.
 
-
-utter_sports_inquiry:
-  - text: |
-      We take pride in our sports facilities and activities for students at Woxsen University. Here's how you can explore sports options on our campus:
-      1. Visit our official website.
-      2. Navigate to the 'Campus Life' section in which you go to the 'Facilities' section and click on 'Sports Arena'
-      3. Discover a range of offerings, including:
-         - A modern gym equipped with the latest fitness equipment.
-         - Diverse fitness classes to suit your interests.
-         - Joining sports clubs or teams for various games and activities.
-         - Participating in exciting sports tournaments and events.
-      4. Feel free to explore the detailed information provided on our website and find the sports activities that align with your interests.
-      
-      If you have any specific questions about our sports facilities or need assistance, please don't hesitate to ask. We're here to help you stay active and engaged!
 
