@@ -143,3 +143,16 @@ nlu:
     - What events are happening during the admissions season?
     - How can I register for an admissions event?
     - Do you have an open house event?
+
+- intent: sports_inquiry
+  examples: |
+    - Tell me about the sports facilities on campus.
+    - What sports and recreational activities are available?
+    - Is there a gym for students to use?
+    - Are there any sports clubs or teams I can join?
+    - Can you provide information about the university's sports events?
+    - How do I access the sports facilities as a student?
+    - Are there any fitness classes or programs offered?
+    - What are the hours of operation for the sports center?
+    - Do you have indoor and outdoor sports options?
+
