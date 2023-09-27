@@ -59,7 +59,8 @@ responses:
       If you have any specific questions or need further assistance, feel free to contact our admissions office."
 
   utter_admissions_inquiry_program:
-    - text: "To apply for the [stream] program at Woxsen University, please follow these steps:
+    - text: |
+    To apply for the [stream] program at Woxsen University, please follow these steps:
       1. Visit our admissions portal on our official website.
       2. Review the admission requirements and ensure you meet the eligibility criteria.
       3. Complete the online application form with accurate information.
@@ -70,7 +71,7 @@ responses:
       8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
       9. Welcome to Woxsen University!
 
-      If you have any specific questions or need further assistance, feel free to contact our admissions office."
+      If you have any specific questions or need further assistance, feel free to contact our admissions office.
 
   utter_placements_inquiry:
   - text: |
@@ -103,48 +104,48 @@ responses:
       8. If selected, you will receive an offer letter via email.
       9. Confirm your acceptance by the specified deadline mentioned in the offer letter.
       10. Welcome to Woxsen University!
+
       You can find program-specific details and deadlines on our official website.
 
 utter_financial_aid:
   - text: |
-      To apply for financial aid or scholarships, follow these steps:
-      1. Visit our official website.
-      2. Go to the 'Financial Aid' or 'Scholarships' section.
-      3. There, you'll find information about available aid types, deadlines, and eligibility criteria.
-      4. Follow the provided instructions to complete your application.
-      5. If you have any questions or need assistance, you can reach out to our financial aid office.
+      Certainly, here's how you can navigate financial aid and scholarships at Woxsen University:
+      If you're looking to apply for [financial aid](financial_aid) specific to your program, visit our official website.
+      1. Go to the 'Admissions' section, then 'Financial Aid & Loans.'
+      2. Find detailed information about available [financial aid](financial_aid) options, including:
+        - Types of [financial aid](financial_aid) available, such as grants, loans, and scholarships.
+        - Application deadlines for [financial aid](financial_aid) and [scholarships](financial_aid).
+        - Eligibility criteria for different financial aid programs.
+        - Information about [tuition fees](amount_currency) and how to calculate your expenses.
+
+      If you have specific questions or need assistance with your [financial aid](financial_aid) application or [scholarship](financial_aid) renewal, our admissions department is here to help. Feel free to reach out to them for personalized support.
 
 utter_academic_programs:
   - text: |
-      We offer a wide range of undergraduate and postgraduate programs. To explore our program offerings, please follow these steps:
-      1. Visit our official website.
-      2. Navigate to the 'Academic Programs' or 'Courses' section.
-      3. There, you can find information about curriculum, majors, program durations, and more.
-      4. Feel free to explore the details, and if you have any specific questions about a program, don't hesitate to ask.
+      Certainly! We offer a diverse range of academic programs to suit various interests and career goals. Here's how you can explore our academic offerings:
+      - Visit our official website.
+      - Go to the 'Academics' section, where you'll find comprehensive information about our programs.
+      - Explore details such as available [undergraduate programs](academic_programs), majors, [postgraduate courses](academic_programs), curriculum for specific programs like the [Computer Science](course_name) program, the availability of [online courses](academic_programs), and the duration of the [MBA](stream) program.
+      - If you have specific questions about any program or need further guidance, feel free to ask, and we'll provide you with personalized information.
+
 
 utter_campus_facilities:
   - text: |
-      Our campus is equipped with various facilities to enhance your student experience, including:
-      - A well-stocked library.
-      - Sports facilities for various activities.
-      - A student cafeteria.
-      - Campus-wide Wi-Fi access.
-      To learn more about each facility, please visit our official website, where you'll find detailed information and locations.
+      Certainly! Here's a breakdown of the campus facilities at Woxsen University:
+      - **Library**: Our library is well-equipped with an extensive collection of books, journals, and digital resources to support your studies. You can find more information about library services and operating hours on our website.
+      - **Sports Facilities**: We offer a range of sports facilities, including a gym, sports clubs, and recreational areas. Students can enjoy various sports and fitness activities on campus.
+      - **Student Cafeteria**: Our student cafeteria serves a variety of delicious and nutritious meals. You can explore the menu, meal plans, and cafeteria hours on our website.
+      - **Campus Wi-Fi**: We provide seamless campus-wide Wi-Fi access to keep you connected. Instructions for connecting to the Wi-Fi network can be found on our website.
+      - **Student Housing**: If you're looking for on-campus housing options, you can find details about available housing facilities, room types, and the application process on our website.
+      
+      For more specific information about each facility, including location and operating hours, please visit our official website's 'Campus Life' section. If you have any further questions or need assistance, feel free to ask, and we'll be happy to help.
 
-utter_admission_events:
-  - text: |
-      We frequently host admission events to help you get acquainted with our university. To stay updated and participate, follow these steps:
-      1. Visit our official website.
-      2. Go to the 'Admission Events' or 'Events' section.
-      3. There, you can find information about upcoming webinars, campus tours, open house events, and more.
-      4. Register for the events that interest you.
-      5. We look forward to seeing you at our events!
 
 utter_sports_inquiry:
   - text: |
       We take pride in our sports facilities and activities for students at Woxsen University. Here's how you can explore sports options on our campus:
       1. Visit our official website.
-      2. Navigate to the 'Sports & Recreation' section.
+      2. Navigate to the 'Campus Life' section in which you go to the 'Facilities' section and click on 'Sports Arena'
       3. Discover a range of offerings, including:
          - A modern gym equipped with the latest fitness equipment.
          - Diverse fitness classes to suit your interests.
