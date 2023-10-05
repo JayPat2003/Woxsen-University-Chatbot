@@ -49,6 +49,22 @@ nlu:
     - no way
     - not really
 
+- intent: foul
+  examples: |
+    - fuck
+    - fuck off
+    - asshole
+    - chutiya
+    - jndfjadadk
+    - djnajkdsnajkdsnajkdsnajkdsnajks
+    - hkasijdo
+    - lavde
+    - bhosdike
+    - bhenchod
+    - madarchod
+    - ejhfiadukjhfna
+    
+
 - intent: admissions_inquiry
   examples: |
     - How can I apply for admissions at [Woxsen University](location)?
