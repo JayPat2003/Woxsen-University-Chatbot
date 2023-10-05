@@ -5,6 +5,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - foul
   - admissions_inquiry
   - admissions_inquiry_program
   - placements_inquiry
@@ -31,111 +32,149 @@ entities:
 
 responses:
   utter_greet:
-    - text: "Hello! How can I assist you today?"
+  - text: "Hello! How can I assist you today?"
 
   utter_goodbye:
-    - text: "Goodbye! If you have any more questions in the future, don't hesitate to ask."
+  - text: "Goodbye! If you have any more questions in the future, don't hesitate to ask."
 
   utter_affirm:
-    - text: "Great! If you have any more inquiries, feel free to ask."
+  - text: "Great! If you have any more inquiries, feel free to ask."
 
   utter_deny:
-    - text: "No problem. If you change your mind or have questions later, just let me know."
+  - text: "No problem. If you change your mind or have questions later, just let me know."
 
   utter_admissions_inquiry:
-    - text: "To apply for the [stream] program at Woxsen University, please follow these steps:
-      1. Visit our admissions portal on our official website.
-      2. Review the admission requirements and ensure you meet the eligibility criteria.
-      3. Complete the online application form with accurate information.
-      4. Upload all the required documents, including academic transcripts and certificates.
-      5. Pay the application fee as specified on the website.
-      6. Once your application is submitted, our admissions team will review it.
-      7. If selected, you will receive an offer letter via email.
-      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
-      9. Welcome to Woxsen University!
+  - text: "
+      To apply for a program at Woxsen University, please follow these steps:
+        1. Visit our admissions portal on our official website.
+        2. Review the admission requirements and ensure you meet the eligibility criteria.  
+        3. Complete the online application form with accurate information.
+        4. Upload all the required documents, including academic transcripts and certificates.
+        5. Pay the application fee as specified on the website.
+        6. Once your application is submitted, our admissions team will review it.
+        7. If selected, you will receive an offer letter via email.
+        8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+        9. Welcome to Woxsen University!
+
+       If you have any specific questions or need further assistance, feel free to contact our admissions office."
+
+  utter_admissions_inquiry_program:
+  - text: "
+      To apply for a [stream] program at Woxsen University, please follow these steps:
+        1. Visit our admissions portal on our official website. 
+        2. Review the admission requirements and ensure you meet the eligibility criteria.
+        3. Complete the online application form with accurate information.
+        4. Upload all the required documents, including academic transcripts and certificates.
+        5. Pay the application fee as specified on the website.
+        6. Once your application is submitted, our admissions team will review it.
+        7. If selected, you will receive an offer letter via email.
+        8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+        9. Welcome to Woxsen University!
 
       If you have any specific questions or need further assistance, feel free to contact our admissions office."
 
-  utter_admissions_inquiry_program:
-    - text: |
-    To apply for the [stream] program at Woxsen University, please follow these steps:
-      1. Visit our admissions portal on our official website.
-      2. Review the admission requirements and ensure you meet the eligibility criteria.
-      3. Complete the online application form with accurate information.
-      4. Upload all the required documents, including academic transcripts and certificates.
-      5. Pay the application fee as specified on the website.
-      6. Once your application is submitted, our admissions team will review it.
-      7. If selected, you will receive an offer letter via email.
-      8. Confirm your acceptance by the specified deadline mentioned in the offer letter.
-      9. Welcome to Woxsen University!
-
-      If you have any specific questions or need further assistance, feel free to contact our admissions office.
-
   utter_placements_inquiry:
-  - text: |
+  - text: "
       Certainly! To explore placement opportunities for your program at Woxsen University, please follow these steps:
-
-      1. Start by visiting our official website.
-      2. Navigate to the 'Placements' section.
-      3. There, you'll find comprehensive information, including:
-         - Placement rates for various programs.
-         - Average salary packages for recent graduates.
-         - A list of top recruiting companies.
-      4. Go through the placement data by going to your specific [stream] or [course_name] if needed.
-      5. If you have any questions or need further assistance, don't hesitate to ask me here. I'm here to help!
+        1. Start by visiting our official website.  
+        2. Navigate to the 'Placements' section.
+        3. There, you'll find comprehensive information, including:
+          - Placement rates for various programs.
+          - Average salary packages for recent graduates.
+          - A list of top recruiting companies.
+        4. Go through the placement data by going to your specific [stream] or [course_name] if needed.
+        5. If you have any questions or need further assistance, don't hesitate to ask me here. I'm here to help!
 
       If you have any specific questions or need further assistance, feel free to contact our admissions office.
 
-      Is there anything else you'd like to know about placements or any other topic?
-
+      Is there anything else you'd like to know about placements or any other topic?"
 
   utter_application_process:
-  - text: |
+  - text: "
       The application process for admissions at Woxsen University may vary depending on the program. Generally, here's a step-by-step guide:
-      1. Visit our official website.
-      2. Navigate to the 'Admissions' or 'Apply Now' section.
-      3. Review the admission requirements specific to your program.
-      4. Complete the online application form with accurate information.
-      5. Upload all the required documents, including academic transcripts and certificates.
-      6. Pay the application fee as specified on the website.
-      7. Once your application is submitted, our admissions team will review it.
-      8. If selected, you will receive an offer letter via email.
-      9. Confirm your acceptance by the specified deadline mentioned in the offer letter.
-      10. Welcome to Woxsen University!
+        1. Visit our official website.
+        2. Navigate to the 'Admissions' or 'Apply Now' section.
+        3. Review the admission requirements specific to your program.
+        4. Complete the online application form with accurate information.
+        5. Upload all the required documents, including academic transcripts and certificates.
+        6. Pay the application fee as specified on the website.
+        7. Once your application is submitted, our admissions team will review it.
+        8. If selected, you will receive an offer letter via email. 
+        9. Confirm your acceptance by the specified deadline mentioned in the offer letter.
+        10. Welcome to Woxsen University!
 
-      You can find program-specific details and deadlines on our official website.
+      You can find program-specific details and deadlines on our official website."
 
-utter_financial_aid:
-  - text: |
+  utter_financial_aid:
+  - text: "
       Certainly, here's how you can navigate financial aid and scholarships at Woxsen University:
-      If you're looking to apply for [financial aid](financial_aid) specific to your program, visit our official website.
-      1. Go to the 'Admissions' section, then 'Financial Aid & Loans.'
-      2. Find detailed information about available [financial aid](financial_aid) options, including:
-        - Types of [financial aid](financial_aid) available, such as grants, loans, and scholarships.
-        - Application deadlines for [financial aid](financial_aid) and [scholarships](financial_aid).
-        - Eligibility criteria for different financial aid programs.
-        - Information about [tuition fees](amount_currency) and how to calculate your expenses.
+        If you're looking to apply for financial aid specific to your program, visit our official website.
+        1. Go to the 'Admissions' section, then 'Financial Aid & Loans.'
+        2. Find detailed information about available financial aid options, including:
+          - Types of financial aid available, such as grants, loans, and scholarships.
+          - Application deadlines for financial aid and scholarships.
+          - Eligibility criteria for different financial aid programs.
+          - Information about tuition fees and how to calculate your expenses.
 
-      If you have specific questions or need assistance with your [financial aid](financial_aid) application or [scholarship](financial_aid) renewal, our admissions department is here to help. Feel free to reach out to them for personalized support.
+      If you have specific questions or need assistance with your financial aid application or scholarship renewal, our admissions department is here to help. Feel free to reach out to them for personalized support."
+
+  utter_academic_programs:
+  - text: "
+      Certainly! We offer a diverse range of academic programs to suit various interests and career goals. Here's how you can explore our academic offerings:
+        - Visit our official website.
+        - Go to the 'Academics' section, where you'll find comprehensive information about our programs.
+        - Explore details such as available undergraduate programs, majors, postgraduate courses, curriculum for specific programs like the Computer Science program, the availability of online courses, and the duration of the MBA program.
+        - If you have specific questions about any program or need further guidance, feel free to ask, and we'll provide you with personalized information."
+
+  utter_campus_facilities:
+  - text: "
+      Certainly! Here's a breakdown of the campus facilities at Woxsen University:
+        - **Library**: Our library is well-equipped with an extensive collection of books, journals, and digital resources to support your studies. You can find more information about library services and operating hours on our website.
+        - **Sports Facilities**: We offer a range of sports facilities, including a gym, sports clubs, and recreational areas. Students can enjoy various sports and fitness activities on campus.  
+        - **Student Cafeteria**: Our student cafeteria serves a variety of delicious and nutritious meals. You can explore the menu, meal plans, and cafeteria hours on our website.
+        - **Campus Wi-Fi**: We provide seamless campus-wide Wi-Fi access to keep you connected. Instructions for connecting to the Wi-Fi network can be found on our website.
+        - **Student Housing**: If you're looking for on-campus housing options, you can find details about available housing facilities, room types, and the application process on our website.
+
+      For more specific information about each facility, including location and operating hours, please visit our official website's 'Campus Life' section. If you have any further questions or need assistance, feel free to ask, and we'll be happy to help."
+  
+  utter_redirect_application:
+  - text: "Your redirection message here."
+
+  utter_redirect_facilities:
+  - text: "Your custom response for the redirect to facilities."
+
+  utter_redirect_admissions:
+    - text: "I'm sorry, I don't have information on that. How about I help you with something else?"
+
+  utter_redirect_programs:
+    - text: "I'm sorry, I can't provide information on programs at the moment. What else would you like to know?"
+
+  utter_default:
+  - text: "I'm sorry, I didn't understand your request. Can you please rephrase or ask something else?"
+   
+utter_campus_facilities:
+  - text: "I apologize, I don't have information on campus facilities right now. How can I assist you with another query?"
+
+utter_admissions_inquiry_program:
+  - text: "I'm sorry, I don't have details about the admissions inquiry for specific programs. Is there anything else you'd like to know?"
 
 utter_academic_programs:
-  - text: |
-      Certainly! We offer a diverse range of academic programs to suit various interests and career goals. Here's how you can explore our academic offerings:
-      - Visit our official website.
-      - Go to the 'Academics' section, where you'll find comprehensive information about our programs.
-      - Explore details such as available [undergraduate programs](academic_programs), majors, [postgraduate courses](academic_programs), curriculum for specific programs like the [Computer Science](course_name) program, the availability of [online courses](academic_programs), and the duration of the [MBA](stream) program.
-      - If you have specific questions about any program or need further guidance, feel free to ask, and we'll provide you with personalized information.
+  - text: "I don't have information about academic programs at the moment. Please ask another question, and I'll do my best to assist you."
 
+utter_application_process:
+  - text: "I'm sorry, I can't provide information on the application process right now. What else would you like to know?"
 
-utter_campus_facilities:
-  - text: |
-      Certainly! Here's a breakdown of the campus facilities at Woxsen University:
-      - **Library**: Our library is well-equipped with an extensive collection of books, journals, and digital resources to support your studies. You can find more information about library services and operating hours on our website.
-      - **Sports Facilities**: We offer a range of sports facilities, including a gym, sports clubs, and recreational areas. Students can enjoy various sports and fitness activities on campus.
-      - **Student Cafeteria**: Our student cafeteria serves a variety of delicious and nutritious meals. You can explore the menu, meal plans, and cafeteria hours on our website.
-      - **Campus Wi-Fi**: We provide seamless campus-wide Wi-Fi access to keep you connected. Instructions for connecting to the Wi-Fi network can be found on our website.
-      - **Student Housing**: If you're looking for on-campus housing options, you can find details about available housing facilities, room types, and the application process on our website.
-      
-      For more specific information about each facility, including location and operating hours, please visit our official website's 'Campus Life' section. If you have any further questions or need assistance, feel free to ask, and we'll be happy to help.
+utter_admissions_inquiry:
+  - text: "I apologize, I don't have information on admissions inquiries right now. How can I help you with another question?"
 
+utter_placements_inquiry:
+  - text: "I'm sorry, I can't provide information on placements inquiries at the moment. What else would you like to know?"
 
+utter_financial_aid:
+  - text: "I don't have information about financial aid at the moment. Please ask another question, and I'll do my best to assist you."  
+
+utter_iamabot:
+  - text: "I am a bot."
+  
+actions:
+  - utter_iamabot
