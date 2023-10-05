@@ -2,12 +2,57 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Greet Rule
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Foul Rule
+  steps:
+  - intent: foul
+  - action: utter_default
+  
+- rule: Goodbye Rule
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Affirmation Rule
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: affirm
+  - action: utter_affirm
+
+- rule: Denial Rule
+  steps:
+  - intent: deny
+  - action: utter_deny
+
+- rule: Admissions Inquiry Rule
+  steps:
+  - intent: admissions_inquiry
+  - action: utter_admissions_inquiry
+
+- rule: Application Process Rule
+  steps:
+  - intent: application_process
+  - action: utter_application_process
+
+- rule: Financial Aid Rule
+  steps:
+  - intent: financial_aid
+  - action: utter_financial_aid
+
+- rule: Academic Programs Rule
+  steps:
+  - intent: academic_programs
+  - action: utter_academic_programs
+
+- rule: Campus Facilities Rule
+  steps:
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+
+- rule: Placements Inquiry Rule
+  steps:
+  - intent: placements_inquiry
+  - action: utter_placements_inquiry
