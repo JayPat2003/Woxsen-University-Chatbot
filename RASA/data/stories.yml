@@ -170,3 +170,13 @@
   steps:
     - intent: academic_programs   
       action: utter_academic_programs
+
+- story: Ask About internationalization
+  steps:
+    - intent: internationalization 
+      action: utter_internalization
+
+- story: Inquire About research
+  steps:
+    - intent: research
+      action: utter_research
