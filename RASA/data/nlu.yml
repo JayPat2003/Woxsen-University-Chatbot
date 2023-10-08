@@ -63,7 +63,15 @@ nlu:
     - bhenchod
     - madarchod
     - ejhfiadukjhfna
-    
+    -lanja
+    -munda
+    -puku
+    -pooka
+    -dengutha
+    -modda kudu
+    -modda kuduvu
+    -sulli
+    -pilla puku
 
 - intent: admissions_inquiry
   examples: |
