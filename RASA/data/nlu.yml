@@ -166,3 +166,10 @@ nlu:
     - Explain the FRO/FRRO registration process for international students.
     - Are medical insurance and health coverage required for international students in India?
     - What should I do if I need to extend my student visa in India?
+
+- intent: research
+  examples: |
+    - Tell me about how does research work in your [university](location)? 
+    - What different [research centres] are available in [campus](location)?
+    - What [research areas] can we work on?
+    - How does your [university](location) facilitate research?
