@@ -63,33 +63,12 @@ nlu:
     - bhenchod
     - madarchod
     - ejhfiadukjhfna
-    -lanja
-    -munda
-    -puku
-    -pooka
-    -dengutha
-    -modda kudu
-    -modda kuduvu
-    -sulli
-    -pilla puku
-
-- intent: admissions_inquiry
-  examples: |
-    - How can I apply for admissions at [Woxsen University](location)?
-    - What are the admission requirements for [B.Tech](stream) program?
-    - When is the application deadline for [MBA](stream) admissions?
-    - Is there an admissions fee for international students?
-    - Can I check my application status with my [Reference Number](reference_number)?
-    - What programs do you offer in [Computer Science](course_name)?
-    - What are the eligibility criteria for [Psychology](course_name) program?
-    - Are there any scholarships available for [Electrical Engineering](course_name) students?
-    - How can I contact the admissions office at [Main Campus](location)?
+    
 
 - intent: application_process
   examples: |
     - What is the [application process](document_type) for [Computer Science](course_name) program?
     - How do I submit my [Transcript](document_type) for admissions?
-    - Can I apply online with my [Passport](document_type)?
     - Is there an [application form](document_type) to fill out?
     - What documents do I need to submit for [Psychology](course_name) admissions?
     - How long does the [application review](confirmation_status) take?
@@ -130,7 +109,6 @@ nlu:
     - how are internships in woxsen?
     - what is the average package ?
     - what is the highest package?
-    - Career opertunities
     - what are the companies that visit woxsen for placements?
     - how can i get placed in companies?
     - skillsets for placements?
@@ -175,9 +153,51 @@ nlu:
     - Are medical insurance and health coverage required for international students in India?
     - What should I do if I need to extend my student visa in India?
 
+- intent: undergraduate_admissions_process
+  examples: |
+    - What is the admissions process for undergraduate programs?
+    - Can you explain how to apply for B.Tech at Woxsen?
+    - Can you explain how to apply for BBA at Woxsen?
+    - Can you explain how to apply for B.Arch at Woxsen?
+    - Can you explain how to apply for B.Design at Woxsen? 
+    - Tell me about the undergraduate admissions at Woxsen.
+    - How do I get admitted to BBA at Woxsen?
+    - How do I get admitted to B.Tech at Woxsen?
+    - How do I get admitted to B.Arch at Woxsen?
+    - How do I get admitted to B.Design at Woxsen?
+    - Explain the steps for undergraduate admissions.
+
+- intent: postgraduate_admissions_process
+  examples: |
+    - What is the admissions process for postgraduate programs?
+    - Can you explain how to apply for MBA at Woxsen?
+    - Tell me about the postgraduate admissions at Woxsen.
+    - How do I get admitted to MBA (Financial Services) at Woxsen?
+    - How do I get admitted to MBA (General) at Woxsen?
+    - How do I get admitted to MBA (Business Analytics) at Woxsen?
+    - Explain the steps for postgraduate admissions.
+
+- intent: scholarship
+  examples: |
+    - How can I apply for scholarships at Woxsen University?
+    - Tell me more about scholarships at Woxsen.
+    - What scholarships are available for undergraduate programs?
+    - Can you explain the scholarship criteria at Woxsen?
+    - How do I check if I'm eligible for a scholarship?
+    - When is the deadline for applying for scholarships?
+    - Is there a maximum scholarship percentage for postgraduate programs?
+    - What should I do if I receive a scholarship offer?
+    - Can you provide details about scholarships in the Admission Offer Letter?
+    - Where can I find information about program fees and scholarships?
+
 - intent: research
   examples: |
-    - Tell me about how does research work in your [university](location)? 
-    - What different [research centres] are available in [campus](location)?
-    - What [research areas] can we work on?
-    - How does your [university](location) facilitate research?
+    - Tell me about how research works at your university?
+    - Can you explain the research opportunities available?
+    - What are the research centers on campus?
+    - How does your university support research activities?
+    - Tell me more about the research areas of focus.
+    - Are there any ongoing research projects?
+    - Can you provide information on faculty research?
+    - What's the process for getting involved in research?
+    - How can I participate in research activities?
