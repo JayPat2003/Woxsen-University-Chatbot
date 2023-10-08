@@ -117,3 +117,20 @@ nlu:
     - Is there a [student cafeteria](campus_facilities)?
     - How do I access the [campus Wi-Fi](campus_facilities)?
     - Tell me about the [student housing options](campus_facilities).
+
+- intent: internationalization
+  examples: |
+   - Whom can we contact to know about [internationlization]?
+   - What kind of (universities) are available?
+   - What is the eligibility criteria for [intenationalization]?
+   - Can [post graduates] apply for (internationalization)?
+   - What is the [application process] (document type) for applying ?
+
+- intent: research
+  examples: |
+   - Tell me about how does research work in your [university](location)? 
+   - What different [research centres] are available in [campus](location)?
+   - What [research areas] can we work on?
+   - How does your [university](location) facilitate research?
+
+
