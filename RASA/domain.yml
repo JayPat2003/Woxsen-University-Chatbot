@@ -136,7 +136,27 @@ responses:
         - **Student Housing**: If you're looking for on-campus housing options, you can find details about available housing facilities, room types, and the application process on our website.
 
       For more specific information about each facility, including location and operating hours, please visit our official website's 'Campus Life' section. If you have any further questions or need assistance, feel free to ask, and we'll be happy to help."
-  
+  utter_internationalization:
+    - text: 
+      "In the face of today’s complex, challenging & competitive environment, it is imperative for any university to keep up with the transitions of this fast-pacing world. With an intention of putting Woxsen on a global map, Internationalization has been introduced. Woxsen currently has 8 International Memberships, 100+ Partner Universities, 100+ Adjunct Professors originating from some of the world’s top varsities and 60+ Fellowships & Chairprofessorships among others. Please visit the following link to know more (https://woxsen.edu.in/internationalization/)
+        - For Information on Exchange & Partnerships, Write to Mr. Chahat Mishra
+        - Head - International Relations and Strategic Development
+        - chahat.mishra@woxsen.edu.in
+        - Few of our collaborations are; AUSTRIA-
+         Johannes Kepler University Linz
+         AFRICA- University of Cape Coast
+         Henley Business School
+         ALGERIA-
+         INCG Setif Business School etc. "
+
+   utter_research:
+    - text:
+      "At Woxsen, our joyful obsession is pushing the boundaries of knowledge and possibility, while we also celebrate fundamental discoveries and practical applications alike. The university is committed to creating an impactful understanding of theory and practice with rigorous research in emerging allied areas.
+        - Research flourishes across Woxsen’s multiple departments and five schools, and numerous centers and labs where experts across disciplines explore new intellectual frontiers. Our on-campus research capabilities are also enhanced through our research relationships with industry and a wide range of leading global institutions. 
+        - Our researchers and scholars regularly contribute to advancing technology, business, management, and other disciplines through their innovation and path-breaking research work.
+        - Valarie Zeithmal Research & Development Centre
+        - Mohanbir Sawhney Case Study Centre
+        - AI Research Centre are the available research centres in woxsen."
   utter_redirect_application:
   - text: "Your redirection message here."
 
