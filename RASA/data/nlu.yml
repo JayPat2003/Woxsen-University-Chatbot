@@ -64,6 +64,15 @@ nlu:
     - madarchod
     - ejhfiadukjhfna
     
+-intent: admission_inquiry
+ examples: |
+    - Can you tell me about the admission requirements for the [Computer Science](course_name) program?
+    - What are the steps for applying to the [Psychology](course_name) program?
+    - How can I check the status of my application?
+    - When is the deadline to submit my transcripts?
+    - Is there a specific GPA requirement for admission?
+    - What documents do I need to submit for the application?
+    - How long does the admission process usually take?
 
 - intent: application_process
   examples: |
@@ -190,7 +199,7 @@ nlu:
     - Can you provide details about scholarships in the Admission Offer Letter?
     - Where can I find information about program fees and scholarships?
 
-- intent: research
+- intent: research_info
   examples: |
     - Tell me about how research works at your university?
     - Can you explain the research opportunities available?
@@ -201,3 +210,4 @@ nlu:
     - Can you provide information on faculty research?
     - What's the process for getting involved in research?
     - How can I participate in research activities?
+

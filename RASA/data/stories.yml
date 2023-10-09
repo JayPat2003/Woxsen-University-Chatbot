@@ -171,12 +171,61 @@
     - intent: academic_programs   
       action: utter_academic_programs
 
-- story: Ask About internationalization
+- story: Inquire About Internationalization Information
   steps:
-    - intent: internationalization 
-      action: utter_internalization
+    - intent: internationalization_info
+      action: utter_internationalization_info
 
-- story: Inquire About research
+
+-story: Inquire About Research Information
   steps:
-    - intent: research
-      action: utter_research
+    - intent: research_info
+      action: utter_research_info
+
+- story: Inquire About Financial Aid and Ask About Programs
+  steps:
+    - intent: financial_aid
+      action: utter_financial_aid
+    - intent: academic_programs
+      action: utter_academic_programs
+
+- story: Inquire About Exchange Partnerships Information
+  steps:
+    - intent: exchange_partnerships_info
+      action: utter_exchange_partnerships_info
+
+- story: English Language Requirements
+  steps:
+    - intent: english_language_requirements
+      action: utter_english_language_requirements
+
+      Story: Inquire About Student Visa Information
+
+- story: Inquire About Student Visa Information
+  steps:
+    -intent: student_visa_info
+     action: utter_student_visa_info
+
+- story: Inquire About Undergraduate Admissions Process
+  steps:
+    -intent: undergraduate_admissions_process
+     action: utter_undergraduate_admissions_process
+
+- story: Inquire About Postgraduate Admissions Process
+  steps:
+    -intent: postgraduate_admissions_process
+     action: utter_postgraduate_admissions_requirements
+    -intent: postgraduate_admissions_process
+     action: utter_postgraduate_admissions_deadlines
+    -intent: postgraduate_admissions_process
+     action: utter_postgraduate_admissions_financial_aid
+    -intent: postgraduate_admissions_process
+     action: utter_postgraduate_admissions_apply_now
+    -intent: postgraduate_admissions_process
+     action: utter_goodbye
+
+
+
+
+
+
