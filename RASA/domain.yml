@@ -8,7 +8,6 @@ intents:
   - foul
   - academic_programs
   - research_info
-  - admissions_inquiry
   - placements_inquiry
   - application_process
   - financial_aid

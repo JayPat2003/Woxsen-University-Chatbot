@@ -1,14 +1,11 @@
-- story: Greet and Inquire About Admissions
+- story: Greet
   steps:
     - intent: greet
       action: utter_greet
-    - intent: admissions_inquiry  
-      action: utter_admissions_inquiry
+    
 
-- story: Inquire About Admissions and Ask About Programs
-  steps:
-    - intent: admissions_inquiry
-      action: utter_admissions_inquiry   
+- story: Ask About Programs
+  steps:  
     - intent: academic_programs
       action: utter_academic_programs
       
@@ -47,8 +44,6 @@
 
 - story: Ask About B.Tech Admission Process
   steps:
-    - intent: admissions_inquiry
-      action: utter_admissions_inquiry_program
     - intent: application_process
       action: utter_application_process
 
@@ -66,21 +61,18 @@
     - intent: academic_programs
       action: utter_academic_programs
 
-- story: Greet, Ask About Admissions, and Campus Hostel
+- story: Greet and ask about Campus Hostel
   steps:
     - intent: greet  
       action: utter_greet
-    - intent: admissions_inquiry   
-      action: utter_admissions_inquiry
     - intent: campus_facilities
       action: utter_campus_facilities   
 
 - story: Inquire About Upcoming Entrance Exam Dates
   steps:
-    - intent: admission_events
-      action: utter_admission_events 
-    - intent: admissions_inquiry
-      action: utter_admissions_inquiry
+    - intent: admission_process
+      action: utter_admission_process 
+    
 
 - story: Greet, Deny, and Say Goodbye
   steps:
