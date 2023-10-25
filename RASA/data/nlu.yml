@@ -17,6 +17,9 @@ nlu:
     - goodevening
     - good afternoon
     - help
+    - help me plz
+    - help me please
+    - I need help
     
 - intent: goodbye
   examples: |
