@@ -284,6 +284,17 @@ responses:
 
       Feel free to ask more specific questions or let us know how we can assist you in your research journey!
 
+  utter_diversity:
+  - text: >
+      At Woxsen University, we take pride in our diverse and inclusive community. We value and respect students from various backgrounds, including religion, region, gender, sexual orientation, and cultural heritage.
+      Our university promotes religious freedom and inclusivity, and we provide spaces for students to practice their faith, including prayer rooms available for daily prayers, such as namaz. These rooms are conveniently located near lecture halls for easy access. Additionally, during Ramadan (Ramzaan), our institution offers special arrangements for sehri and iftaar meals to support our Muslim students during this sacred month.
+      We embrace and celebrate cultural and religious festivals to foster a sense of unity and harmony among our diverse student body. Your ability to practice your religion and express your identity is important to us.
+      In addition to religious acceptance, Woxsen University is a safe and inclusive space for LGBTQ+ students. We stand by the principles of equality and non-discrimination, and we actively support LGBTQ+ rights and acceptance within our community.
+      We recognize the richness of a multicultural and multilingual campus and appreciate the contributions of our international students. Our community values the languages, cultures, and perspectives that students from around the world bring to our university.
+
+      Should you have any specific questions or need more information about diversity, LGBTQ+ support, or multicultural and multilingual acceptance, please feel free to reach out to our student affairs department. We are here to ensure that your university experience is welcoming and accommodating.
+
+
 
   utter_redirect_application:
   - text: "Your redirection message here."
