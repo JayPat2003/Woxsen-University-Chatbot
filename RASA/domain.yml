@@ -5,7 +5,15 @@ intents:
   - goodbye
   - affirm
   - deny
+  - help
   - foul
+<<<<<<< HEAD
+  - open_to_all
+  - academic_programs
+  - research_info
+  - placements_inquiry
+=======
+>>>>>>> 64127bf5b5dce2175a27ca43ab2dae805952e673
   - application_process
   - financial_aid
   - academic_programs
@@ -37,6 +45,7 @@ entities:
   - internationalization
   - university
 
+
 responses:
   utter_greet:
    - text: "Hello! How can I assist you today?"
@@ -49,7 +58,17 @@ responses:
 
   utter_deny:
    - text: "No problem. If you change your mind or have questions later, just let me know."
+  
+  utter_help:
+   - text: "How can I assist you today? If you have any questions or need information, feel free to ask, and I'll do my best to help."
 
+<<<<<<< HEAD
+  utter_open_to_all:
+   - text:  "Our university is open to all, without any discrimination based on gender, caste, or creed. We're committed to fostering an inclusive and welcoming environment. If you have any questions or need more information, feel free to ask."
+
+
+=======
+>>>>>>> 64127bf5b5dce2175a27ca43ab2dae805952e673
   utter_admissions_inquiry:
    - text: >
       To apply for a program at Woxsen University, please follow these steps:
@@ -120,7 +139,34 @@ responses:
           - Application deadlines for financial aid and scholarships.
           - Eligibility criteria for different financial aid programs.
           - Information about tuition fees and how to calculate your expenses.
+<<<<<<< HEAD
+  - text: >
+    utter_financial_aid:
+    - text: >
+      Sure, here's the scoop on financial aid and scholarships at Woxsen University:
+      If you have specific questions or need assistance with your financial aid application or scholarship renewal, our admissions department is here to help. Feel free to reach out to them for personalized support."
 
+  utter_internationalization:
+    - text:
+    "In the face of today’s complex, challenging & competitive environment, it is imperative for any university to keep up with the transitions of this fast-pacing world. With an intention of putting Woxsen on a global map, Internationalization has been introduced. Woxsen currently has 8 International Memberships, 100+ Partner Universities, 100+ Adjunct Professors originating from some of the world’s top varsities and 60+ Fellowships & Chairprofessorships among others. Please visit the following link to know more (https://woxsen.edu.in/internationalization/)
+    For Information on Exchange & Partnerships, Write to 
+      Mr. Chahat Mishra
+      Head - International Relations and Strategic Development
+      chahat.mishra@woxsen.edu.in
+      Few of our collaborations are; AUSTRIA-
+         Johannes Kepler University Linz
+         AFRICA-
+         University of Cape Coast
+         Henley Business School
+         ALGERIA-
+         INCG Setif Business School etc.,"
+        - Did you know? Over 30% of our students secure education loans every year to make their dreams of studying at Woxsen University a reality.
+        - Exciting news! We now offer Easy Monthly Installments (EMI) for students seeking flexible payment options.
+        - If you're curious about education loans, EMI choices, or other financial assistance, check out [this link](https://woxsen.edu.in/admissions/financial-aid-loans/) for step-by-step instructions on payments.
+        - Got questions? Need help with your financial aid application, scholarship renewal, or payment plans? Our admissions team is here to assist you personally. Feel free to reach out!
+=======
+
+>>>>>>> 64127bf5b5dce2175a27ca43ab2dae805952e673
         
   utter_academic_programs:
   - text: >
@@ -130,6 +176,20 @@ responses:
         - Explore details such as available undergraduate programs, majors, postgraduate courses, curriculum for specific programs like the Computer Science program, the availability of online courses, and the duration of the MBA program.
         - If you have specific questions about any program or need further guidance, feel free to ask, and we'll provide you with personalized information."
 
+<<<<<<< HEAD
+
+
+  utter_research:
+    - text:
+    "At Woxsen, our joyful obsession is pushing the boundaries of knowledge and possibility, while we also celebrate fundamental discoveries and practical applications alike. The university is committed to creating an impactful understanding of theory and practice with rigorous research in emerging allied areas.
+     Research flourishes across Woxsen’s multiple departments and five schools, and numerous centers and labs where experts across disciplines explore new intellectual frontiers. Our on-campus research capabilities are also enhanced through our research relationships with industry and a wide range of leading global institutions. 
+     Our researchers and scholars regularly contribute to advancing technology, business, management, and other disciplines through their innovation and path-breaking research work.
+     Valarie Zeithmal Research & Development Centre
+     Mohanbir Sawhney Case Study Centre
+     AI Research Centre are the available research centres in woxsen.
+=======
+=======
+>>>>>>> 64127bf5b5dce2175a27ca43ab2dae805952e673
   utter_campus_facilities:
   - text: >
       Certainly! Here's a breakdown of the campus facilities at Woxsen University:
@@ -280,6 +340,10 @@ responses:
   utter_redirect_application:
   - text: "Your redirection message here."
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 64127bf5b5dce2175a27ca43ab2dae805952e673
   utter_redirect_facilities:
    - text: "Your custom response for the redirect to facilities."
 
