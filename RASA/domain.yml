@@ -6,13 +6,11 @@ intents:
   - affirm
   - deny
   - foul
-  - academic_programs
-  - research_info
-  - placements_inquiry
   - application_process
   - financial_aid
-  - placements_inquiry
+  - academic_programs
   - campus_facilities
+  - placements_inquiry
   - internationalization_info
   - exchange_partnerships_info
   - english_language_requirements
@@ -20,6 +18,7 @@ intents:
   - undergraduate_admissions_process
   - postgraduate_admissions_process
   - scholarship
+  - research_info
 
 entities:
   - stream
