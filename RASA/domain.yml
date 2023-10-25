@@ -292,7 +292,6 @@ responses:
       Should you have any specific questions or need more information about diversity, LGBTQ+ support, or multicultural and multilingual acceptance, please feel free to reach out to our student affairs department. We are here to ensure that your university experience is welcoming and accommodating.
 
 
-
   utter_redirect_application:
   - text: "Your redirection message here."
 
