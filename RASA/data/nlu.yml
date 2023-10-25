@@ -201,4 +201,32 @@ nlu:
     - Can you provide information on faculty research?
     - What's the process for getting involved in research?
     - How can I participate in research activities?
-
+    
+- intent: diversity
+  examples: |
+    - How diverse is the student body in terms of religion at your university?
+    - Can you tell me about the religious diversity among students in your university?
+    - What efforts are made to promote regional diversity among the student community?
+    - Is there a regional diversity policy for students?
+    - Tell me about the regional representation in your student population.
+    - How does your university address gender diversity among students?
+    - What initiatives exist to ensure gender diversity on campus?
+    - Can you provide information on the gender ratio among your students?
+    - What is the level of LGBTQ acceptance and support on campus?
+    - Are there LGBTQ-friendly resources and organizations at your university?
+    - Can you share information about LGBTQ rights and inclusivity at your institution?
+    - How inclusive is your university for transgender students?
+    - What support is available for gay and lesbian students on campus?
+    - Can you tell me about bisexual representation in your student body?
+    - Are there any groups or initiatives for the LGBTQ community at your institution?
+    - Are there any diversity programs or initiatives for students of different castes?
+    - Can you share information about the representation of Dalit students on campus?
+    - What measures does your university take to prevent discrimination based on religion?
+    - Are there any specific support systems for Muslim students at your institution?
+    - How does your university address issues related to caste-based discrimination?
+    - Can you provide information about the inclusion of Christian students on campus?
+    - Can I practice my own religion on campus?
+    - What religious facilities and spaces are available for students?
+    - Is there a prayer room or chapel on campus for religious activities?
+    - Are there any cultural or religious festivals celebrated at your university?
+    - How does your institution promote a discrimination-free environment?
