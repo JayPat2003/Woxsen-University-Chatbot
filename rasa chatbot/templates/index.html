@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Rasa Integration</title>
+</head>
+<body>
+    <h1>Flask Rasa Integration</h1>
+    <form action="/parse" method="post">
+        <label for="value1">Enter Text:</label>
+        <input type="text" id="value1" name="value1" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+    {% if text %}
+        <p>You entered: {{ text }}</p>
+    {% endif %}
+    
+    {% if result %}
+        <h2>Rasa Response:</h2>
+        <ul>
+            {% for r in result %}
+                <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html> 
+
+
+
+
+

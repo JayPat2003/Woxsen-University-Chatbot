@@ -1,0 +1,89 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet Rule
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Foul Rule
+  steps:
+  - intent: foul
+  - action: utter_default
+  
+- rule: Goodbye Rule
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Affirmation Rule
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- rule: Denial Rule
+  steps:
+  - intent: deny
+  - action: utter_deny
+
+- rule: Admissions Inquiry Rule
+  steps:
+  - intent: admissions_inquiry
+  - action: utter_admissions_inquiry
+
+- rule: Application Process Rule
+  steps:
+  - intent: application_process
+  - action: utter_application_process
+
+- rule: Financial Aid Rule
+  steps:
+  - intent: financial_aid
+  - action: utter_financial_aid
+
+- rule: Academic Programs Rule
+  steps:
+  - intent: academic_programs
+  - action: utter_academic_programs
+
+- rule: Campus Facilities Rule
+  steps:
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+
+- rule: Placements Inquiry Rule
+  steps:
+  - intent: placements_inquiry
+  - action: utter_placements_inquiry
+
+- rule: Diversity Rule
+  steps:
+  - intent: diversity
+  - action: utter_diversity
+
+- rule: Scholarship Rule
+  steps:
+  - intent: scholarship
+  - action: utter_scholarship
+
+- rule: Research Info Rule
+  steps:
+  - intent: research_info
+  - action: utter_research_info
+
+- rule: Internationalization Info Rule
+  steps:
+  - intent: internationalization_info
+  - action: utter_internationalization_info
+
+- rule: Exchange Partnerships Info Rule
+  steps:
+  - intent: exchange_partnerships_info
+  - action: utter_exchange_programs_info
+
+
+- rule: Student Visa Info Rule
+  steps:
+  - intent: student_visa_info
+  - action: utter_student_visa_info

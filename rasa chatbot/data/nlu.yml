@@ -1,0 +1,219 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - help
+    - help me plz
+    - help me please
+    - I need help
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: foul
+  examples: |
+    - fuck
+    - fuck off
+    - asshole
+    - chutiya
+    - jndfjadadk
+    - djnajkdsnajkdsnajkdsnajkdsnajks
+    - hkasijdo
+    - lavde
+    - bhosdike
+    - bhenchod
+    - madarchod
+    - ejhfiadukjhfna
+    
+
+- intent: admissions_inquiry
+  examples: |
+    - How can I apply for admissions at [Woxsen University](location)?
+    - What are the admission requirements for [B.Tech](stream) program?
+    - When is the application deadline for [MBA](stream) admissions?
+    - Is there an admissions fee for international students?
+    - Can I check my application status with my [Reference Number](reference_number)?
+    - What programs do you offer in [Computer Science](course_name)?
+    - What are the eligibility criteria for [Psychology](course_name) program?
+    - Are there any scholarships available for [Electrical Engineering](course_name) students?
+    - How can I contact the admissions office at [Main Campus](location)?
+
+- intent: application_process
+  examples: |
+    - What is the [application process](document_type) for [Computer Science](course_name) program?
+    - How do I submit my [Transcript](document_type) for admissions?
+    - Can I apply online with my [Passport](document_type)?
+    - Is there an [application form](document_type) to fill out?
+    - What documents do I need to submit for [Psychology](course_name) admissions?
+    - How long does the [application review](confirmation_status) take?
+    - Can I edit my submitted [application](document_type)?
+    - What is the admission timeline for [Fall 2023](date)?
+
+- intent: financial_aid
+  examples: |
+    - How do I apply for [financial aid](financial_aid)?
+    - What types of [financial aid](financial_aid) are available for [B.Tech](stream) students?
+    - What is the [deadline](date) for [financial aid](financial_aid) applications?
+    - Can I get a [scholarship](financial_aid) for my [MBA](stream) program?
+    - How do I renew my [scholarship](financial_aid)?
+    - What are the [eligibility criteria](eligibility_criteria) for [financial aid](financial_aid)?
+    - Where can I find information about [tuition fees](amount_currency)?
+
+- intent: academic_programs
+  examples: |
+    - Tell me about your [undergraduate programs](academic_programs).
+    - What majors are available in your [university](location)?
+    - Can you provide information on [postgraduate courses](academic_programs)?
+    - What is the curriculum for the [Computer Science](course_name) program?
+    - Do you offer [online courses](academic_programs)?
+    - What is the duration of the [MBA](stream) program?
+
+- intent: campus_facilities
+  examples: |
+    - What [facilities](campus_facilities) are available on [campus](location)?
+    - Can you tell me about the [library](campus_facilities)?
+    - Are there [sports facilities](campus_facilities) for [students](user_role)?
+    - Is there a [student cafeteria](campus_facilities)?
+    - How do I access the [campus Wi-Fi](campus_facilities)?
+    - Tell me about the [student housing options](campus_facilities).
+    - campus life 
+
+
+- intent: scholarship
+  examples: |
+    - How can I apply for scholarships at Woxsen University?
+    - Tell me more about scholarships at Woxsen.
+    - What scholarships are available for undergraduate programs?
+    - Can you explain the scholarship criteria at Woxsen?
+    - How do I check if I'm eligible for a scholarship?
+    - When is the deadline for applying for scholarships?
+    - Is there a maximum scholarship percentage for postgraduate programs?
+    - What should I do if I receive a scholarship offer?
+    - Can you provide details about scholarships in the Admission Offer Letter?
+    - Where can I find information about program fees and scholarships?
+
+- intent: research_info
+  examples: |
+    - Tell me about how research works at your university?
+    - Can you explain the research opportunities available?
+    - What are the research centers on campus?
+    - How does your university support research activities?
+    - Tell me more about the research areas of focus.
+    - Are there any ongoing research projects?
+    - Can you provide information on faculty research?
+    - What's the process for getting involved in research?
+    - How can I participate in research activities?
+    
+- intent: diversity
+  examples: |
+    - How diverse is the student body in terms of religion at your university?
+    - Can you tell me about the religious diversity among students in your university?
+    - What efforts are made to promote regional diversity among the student community?
+    - Is there a regional diversity policy for students?
+    - Tell me about the regional representation in your student population.
+    - How does your university address gender diversity among students?
+    - What initiatives exist to ensure gender diversity on campus?
+    - Can you provide information on the gender ratio among your students?
+    - What is the level of LGBTQ acceptance and support on campus?
+    - Are there LGBTQ-friendly resources and organizations at your university?
+    - Can you share information about LGBTQ rights and inclusivity at your institution?
+    - How inclusive is your university for transgender students?
+    - What support is available for gay and lesbian students on campus?
+    - Can you tell me about bisexual representation in your student body?
+    - Are there any groups or initiatives for the LGBTQ community at your institution?
+    - Are there any diversity programs or initiatives for students of different castes?
+    - Can you share information about the representation of Dalit students on campus?
+    - What measures does your university take to prevent discrimination based on religion?
+    - Are there any specific support systems for Muslim students at your institution?
+    - How does your university address issues related to caste-based discrimination?
+    - Can you provide information about the inclusion of Christian students on campus?
+    - Can I practice my own religion on campus?
+    - What religious facilities and spaces are available for students?
+    - Is there a prayer room or chapel on campus for religious activities?
+    - Are there any cultural or religious festivals celebrated at your university?
+    - How does your institution promote a discrimination-free environment?
+
+- intent: student_visa_info
+  examples: |
+    - Tell me about the student visa process at Woxsen University.
+    - How do I apply for a student visa after receiving the Admission Acceptance Letter?
+    - What type of student visa should I apply for, and why?
+    - What documents are required for the student visa application?
+    - When should I apply for the student visa before traveling to India?
+    - Can I use my student visa for purposes other than studying at Woxsen University?
+    - What should I do after arriving at the University Campus with my student visa?
+    - Explain the FRO/FRRO registration process for international students.
+    - Are medical insurance and health coverage required for international students in India?
+    - What should I do if I need to extend my student visa in India?
+
+- intent: internationalization_info
+  examples: |
+    - Tell me about internationalization at Woxsen University.
+    - What is Woxsen's approach to internationalization?
+    - Explain how Woxsen is expanding globally.
+    - Can you provide details about international partnerships at Woxsen?
+    - How is Woxsen University connecting with universities worldwide?
+    - Tell me more about Woxsen's global initiatives.
+
+
+- intent: exchange_partnerships_info
+  examples: |
+    - Tell me about Woxsen's exchange programs.
+    - What international partnership opportunities are available at Woxsen?
+    - List some universities Woxsen collaborates with for student exchanges.
+    - How can I participate in international exchange programs at Woxsen?
+    - Explain the process to study abroad through Woxsen.
+    - Which universities have partnerships with Woxsen University?
+
+- intent: placements_inquiry
+  examples: |
+    - how are placements in woxsen university?
+    - how are internships in woxsen?
+    - what is the average package ?
+    - what is the highest package?
+    - what are the companies that visit woxsen for placements?
+    - how can i get placed in companies?
+    - skillsets for placements?

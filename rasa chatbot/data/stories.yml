@@ -1,0 +1,233 @@
+- story: Greet and Inquire About Admissions
+  steps:
+    - intent: greet
+      action: utter_greet
+    - intent: admissions_inquiry  
+      action: utter_admissions_inquiry
+
+- story: Inquire About Admissions and Ask About Programs
+  steps:
+    - intent: admissions_inquiry
+      action: utter_admissions_inquiry   
+    - intent: academic_programs
+      action: utter_academic_programs
+      
+- story: Ask About Application Process for MBA
+  steps:
+    - intent: application_process
+      action: utter_application_process
+    - intent: academic_programs
+      action: utter_academic_programs
+
+- story: Inquire About MBA Fees
+  steps:   
+    - intent: academic_programs
+      action: utter_academic_programs
+    - intent: financial_aid   
+      action: utter_financial_aid
+
+- story: Ask About Sports Facilities 
+  steps:
+    - intent: campus_facilities
+      action: utter_campus_facilities
+
+- story: Inquire About Placements Statistics
+  steps:
+    - intent: placements_inquiry
+      action: utter_placements_inquiry
+
+- story: Greet, Ask About Programs, and Say Goodbye
+  steps:
+    - intent: greet
+      action: utter_greet    
+    - intent: academic_programs
+      action: utter_academic_programs
+    - intent: goodbye
+      action: utter_goodbye
+
+- story: Ask About B.Tech Admission Process
+  steps:
+    - intent: admissions_inquiry
+      action: utter_admissions_inquiry_program
+    - intent: application_process
+      action: utter_application_process
+
+- story: Inquire About Scholarships and Eligibility   
+  steps:
+    - intent: financial_aid
+      action: utter_financial_aid 
+    - intent: eligibility_criteria
+      action: utter_financial_aid
+
+- story: Ask About Placements and Core Branches    
+  steps:
+    - intent: placements_inquiry
+      action: utter_placements_inquiry
+    - intent: academic_programs
+      action: utter_academic_programs
+
+- story: Greet, Ask About Admissions, and Campus Hostel
+  steps:
+    - intent: greet  
+      action: utter_greet
+    - intent: admissions_inquiry   
+      action: utter_admissions_inquiry
+    - intent: campus_facilities
+      action: utter_campus_facilities   
+
+- story: Inquire About Upcoming Entrance Exam Dates
+  steps:
+    - intent: admission_events
+      action: utter_admission_events 
+    - intent: admissions_inquiry
+      action: utter_admissions_inquiry
+
+- story: Greet, Deny, and Say Goodbye
+  steps:
+    - intent: greet
+      action: utter_greet   
+    - intent: deny
+      action: utter_deny
+    - intent: goodbye
+      action: utter_goodbye
+
+- story: Ask About MBA Specializations    
+  steps:
+    - intent: academic_programs
+      action: utter_academic_programs
+
+- story: Inquire About MBA Placements and Confirm
+  steps:
+    - intent: placements_inquiry 
+      action: utter_placements_inquiry
+    - intent: affirm   
+      action: utter_affirm
+
+- story: Greet and Ask for Application Form
+  steps:
+    - intent: greet  
+      action: utter_greet
+    - intent: application_process
+      action: utter_application_process   
+
+- story: Greet and Ask for Fee Structure  
+  steps:
+    - intent: greet
+      action: utter_greet
+    - intent: financial_aid
+      action: utter_financial_aid
+
+- story: Ask About Programs Offered and Campus Facilities
+  steps:
+    - intent: academic_programs
+      action: utter_academic_programs
+    - intent: campus_facilities
+      action: utter_campus_facilities
+
+- story: Ask About Application Deadline 
+  steps:   
+    - intent: application_process
+      action: utter_application_process
+
+- story: Inquire About Admission Criteria
+  steps:
+    - intent: admissions_inquiry
+      action: utter_admissions_inquiry
+
+- story: Ask About Hostel Facilities
+  steps: 
+    - intent: campus_facilities  
+      action: utter_campus_facilities
+
+- story: Inquire About Semester Dates
+  steps:
+    - intent: academic_programs
+      action: utter_academic_programs   
+
+- story: Ask About Nearby PG Accommodations  
+  steps:
+    - intent: campus_facilities 
+      action: utter_campus_facilities
+
+- story: Inquire About Campus Size and Location
+  steps:
+    - intent: campus_facilities
+      action: utter_campus_facilities
+
+- story: Ask About Scholarship Application Process
+  steps:   
+    - intent: financial_aid
+      action: utter_financial_aid
+    - intent: application_process
+      action: utter_application_process
+
+- story: Inquire About Online Application Portal
+  steps:
+    - intent: application_process
+      action: utter_application_process
+
+- story: Ask About Courses Duration
+  steps:
+    - intent: academic_programs   
+      action: utter_academic_programs
+
+- story: Inquire About Research Information
+  steps:
+    - intent: research_info
+      action: utter_research_info
+
+- story: Inquire About Scholorships
+  steps:
+    - intent: scholarship
+      action: utter_research_info
+
+- story: Ask About Diversity 
+  steps:
+    - intent: diversity
+    - action: utter_diversity
+
+- story: Student Visa Inquiry
+  steps:
+     - intent: student_visa_info
+     - action: action_student_visa_info
+
+- story: Internationalization Inquiry
+  steps:
+     - intent: internationalization_info
+     - action: action_internationalization_info
+
+- story: Exchange Partnerships Inquiry
+  steps:
+     - intent: exchange_partnerships_info
+     - action: action_exchange_partnerships_info
+
+
+- story: Student Visa and Internationalization Inquiry
+  steps:
+     - intent: student_visa_info
+     - action: action_student_visa_info
+     - intent: internationalization_info
+     - action: action_internationalization_info
+
+- story: Exchange Partnerships Inquiry
+  steps:
+    
+     - intent: exchange_partnerships_info
+     - action: action_exchange_partnerships_info
+
+- story: Student Visa 
+  steps:
+     - intent: student_visa_info
+     - action: action_student_visa_info
+    
+
+- story: All Information Inquiry
+  steps:
+     - intent: student_visa_info
+     - action: action_student_visa_info
+     - intent: internationalization_info
+     - action: action_internationalization_info
+     - intent: exchange_partnerships_info
+     - action: action_exchange_partnerships_info
+     - intent: english_language_requirements
+     - action: action_english_language_requirements
